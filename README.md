@@ -69,7 +69,9 @@
       - Add a line to add a spam chat.
       - Modify a line to change a spam chat.
       - Remove a line to remove a spam chat
-      
+
+- Extract the Gotcha v2.1 Folder from the Gotcha v2.1.zip file
+
 - Before starting the bot please ensure the following:
    - Discord client is running
    - Your discord client is in your server with the bot added

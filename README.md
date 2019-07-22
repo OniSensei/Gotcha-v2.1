@@ -2,6 +2,12 @@
 ### Auto spammer / catcher for discord bot pokecord
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
+## Preview
+![preview](https://imgur.com/GbgBXgJ.png)
+
+## Discord
+> [Join the Discord](https://discord.gg/6ByeEMy)
+
 ## Download
 > [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Latest release
 
@@ -61,12 +67,12 @@
       - Modify a line to change a spam chat.
       - Remove a line to remove a spam chat
       
+- Before starting the bot please ensure the following:
+   - Discord client is running
+   - Your discord client is in your server with the bot added
+   - You are chatting in the channel you set in channel.txt
+
 - Start the bot by double clicking Gotcha.exe
 
 - Stop the bot by closing gotcha.exe
 
-## Preview
-![preview](https://imgur.com/GbgBXgJ.png)
-
-## Discord
-> [Join the Discord](https://discord.gg/6ByeEMy)

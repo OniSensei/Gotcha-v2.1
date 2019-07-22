@@ -1,0 +1,51 @@
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.vbprojAssemblyReference.cache
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha_v2._1.Resources.resources
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.vbproj.GenerateResource.cache
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.vbproj.CoreCompileInputs.cache
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.exe.config
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.exe
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.pdb
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Commands.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Core.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Rest.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Webhook.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.WebSocket.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.AppContext.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Collections.Immutable.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Console.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Drawing.Common.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Interactive.Async.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.IO.Compression.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Net.Http.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Net.Sockets.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Commands.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Core.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Rest.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.Webhook.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Discord.Net.WebSocket.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Collections.Immutable.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\System.Interactive.Async.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.vbproj.CopyComplete
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.exe
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.pdb

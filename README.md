@@ -8,8 +8,10 @@
 ## Discord
 > [Join the Discord](https://discord.gg/6ByeEMy)
 
-## Download
+## Downloads
+> [Discord Client](https://discordapp.com/)
 > [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Latest release
+
 
 ## Setup
 
@@ -72,7 +74,7 @@
    - Your discord client is in your server with the bot added
    - You are chatting in the channel you set in channel.txt
 
-- Start the bot by double clicking Gotcha.exe
+- Start the bot by double clicking Gotcha v2.1.exe
 
 - Stop the bot by closing gotcha.exe
 

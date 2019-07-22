@@ -3,7 +3,7 @@
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
 ## Download
-
+> [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Latest release
 
 ## Setup
 

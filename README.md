@@ -10,6 +10,7 @@
 
 ## Downloads
 > [Discord Client](https://discordapp.com/)
+
 > [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Latest release
 
 

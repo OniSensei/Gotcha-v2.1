@@ -67,3 +67,6 @@
 
 ## Preview
 ![preview](https://imgur.com/GbgBXgJ.png)
+
+## Discord
+> [Join the Discord](https://discord.gg/6ByeEMy)

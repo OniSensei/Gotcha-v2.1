@@ -69,7 +69,7 @@
    AutoBal = "True"          ; True or False | This sends p!pokedex claim all after a new pokemon is added to pokedex
    PokeWhiteList = "Bulbasaur"
    ```
-      - The pokemon catcher only catches pokemon on the Whitelist, they must be correct spelling and capital first letter. The default settings have every pokemon.
+     - The pokemon catcher only catches pokemon on the Whitelist, they must be correct spelling and capital first letter. The default settings have every pokemon.
       
    - Save settings.ini
    

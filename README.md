@@ -45,7 +45,7 @@
          
    - Paste the token into settings.ini | It should look something like this:
    
-   ![Token Settings](https://imgur.com/uSlyF5P.png)
+   ![Token Settings](https://imgur.com/oGDHstI.png)
    
    - Replace 'general2' under 'Channel' with your discord channel name
    

@@ -11,7 +11,9 @@
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Latest release
+> [Gotcha v2.1.0.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.1) - Latest Release
+
+> [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Original Commit - Stable
 
 
 ## Setup
@@ -41,14 +43,36 @@
          
    ![Copy Token](https://imgur.com/ImHZxNG.png)
          
-   - Paste copied token into token.txt file in the Gotcha v2.1 root folder. (replace old token if needed but should be blank.)
-         
-   ![Token](https://imgur.com/hapTmZ9.png)
+   - Paste the token into settings.ini | It should look something like this:
    
-   - Replace the channel name in channel.txt with what ever your channel name is
+   ![Token Settings](https://imgur.com/uSlyF5P)
    
-   ![Channel](https://imgur.com/ynRJY7S.png)
-         
+   - Replace 'general2' under 'Channel' with your discord channel name
+   
+   - These settings tell the bot who it is and where 
+   ```
+   [Basic]
+   Channel = "general" 
+   BotToken = "NTk3MjY3MjU5MjUzMTk0Nzkz.XTaFGw.NARvf5ktmSG93ujfUdwD-kRwoTY"
+   ```
+   
+   - These settings control the auto spammer
+   ```
+   [Spam]
+   SpamInterval = "1500"     ; In ms | 1000ms = 1 sec
+   AutoSpam = "True"         ; True or False
+   ```
+   
+   - These settings control the auto catcher
+   ```
+   [Catch]
+   AutoBal = "True"          ; True or False | This sends p!pokedex claim all after a new pokemon is added to pokedex
+   PokeWhiteList = "Bulbasaur"
+   ```
+      - The pokemon catcher only catches pokemon on the Whitelist, they must be correct spelling and capital first letter. The default settings have every pokemon.
+      
+   - Save settings.ini
+   
    - Go back to the Discord Developer Portal and select 'OAuth2' tab under settings on the right toolbar
          
    ![OAuth2](https://imgur.com/z24sHdA.png)

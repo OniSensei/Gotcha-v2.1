@@ -8,6 +8,9 @@
 ## Discord
 > [Join the Discord](https://discord.gg/6ByeEMy)
 
+## Video guide
+> [Youtube](https://www.youtube.com/watch?v=Hc1msF5jaEY)
+
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 

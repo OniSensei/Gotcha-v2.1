@@ -3,7 +3,7 @@
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
 ## Preview
-![preview](https://imgur.com/GbgBXgJ.png)
+![preview](https://imgur.com/nogZlZY.png)
 
 ## Discord
 > [Join the Discord](https://discord.gg/6ByeEMy)
@@ -11,10 +11,52 @@
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.1) - Latest Release
+> [Gotcha v2.1.0.2](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.2) - Latest Release
+
+> [Gotcha v2.1.0.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.1) - Older - Stable
 
 > [Gotcha v2.1.0.0](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.0) - Original Commit - Stable
 
+## Discord Commands
+```
++g <- Prefix
+
+Settings Commands: (you must include the "[]" brackets.)
+
++g[settings][channel][channelname] <- replace channelname with your channel name.
+	- This command changes the channel name in the settings.ini file.
+	
++g[settings][token][yourtoken] <- replace yourtoken with your token.
+	- This command changes the token in the settings.ini file.
+
++g[settings][spamdelay][1500] <- replace 1500 with your delay in ms.
+	- This command changes the spam delay in the settings.ini file. (1500ms the default, is the suggested ammount)
+
++g[settings][autospam][on/off] < - replace on/off with either on or off.
+	- This command changes the auto spammer to true or false in the settings.ini file.
+
++g[settings][autobal][on/off] <- replace on/off with either on or off.
+	- This command changes the auto ballance to true or false in the settings.ini file.
+	
++g[settings][catchdelay][750] <- replace 750 with your delay in ms.
+	- This command changes the catch delay in the settings.ini file (750ms the default, is the suggested ammount)
+
++g[settings][legend][on/off] <- replace on/off with either on or off.
+	- This command changes the legendary notifications to true or false in the settings.ini file.
+	
++g[settings][mythic][on/off] <- replace on/off with either on or off.
+	- This command changes the mythical notifications to true or false in the settings.ini file.
+	
++g[settings][ultrabeast][on/off] <- replace on/off with either on or off.
+	- This command changes the Ultra Beast notifications to true or false in the settings.ini file.
+	
++g[settings][event][on/off] <- replace on/off with either on or off.
+	- This command changes the event pokemon notifications to true or false in the settings.ini file.
+	
++g[settings][reload]
+	- This command reloads the settings.ini file. This is required after any settings changes in order to take effect. Even after it is suggested to reboot the bot.
+	
+```
 
 ## Setup
 
@@ -45,7 +87,7 @@
          
    - Paste the token into settings.ini | It should look something like this:
    
-   ![Token Settings](https://imgur.com/oGDHstI.png)
+   ![Token Settings](https://imgur.com/KOP60Zg.png)
    
    - Replace 'general2' under 'Channel' with your discord channel name
    
@@ -53,13 +95,13 @@
    ```
    [Basic]
    Channel = "general" 
-   BotToken = "NTk3MjY3MjU5MjUzMTk0Nzkz.XTaFGw.NARvf5ktmSG93ujfUdwD-kRwoTY"
+   BotToken = "NTk3MjY3MjU5MjUzMTk0Nzkz.XTaFGw.NARvf5ktmSG93ujfdsfUdwD-kRwoTY"
    ```
    
    - These settings control the auto spammer
    ```
    [Spam]
-   SpamInterval = "1500"     ; In ms | 1000ms = 1 sec
+   SpamInterval = "1500"     ; In ms | 1000ms = 1 sec | Default is 1500
    AutoSpam = "True"         ; True or False
    ```
    
@@ -67,9 +109,19 @@
    ```
    [Catch]
    AutoBal = "True"          ; True or False | This sends p!pokedex claim all after a new pokemon is added to pokedex
+   CatchDelay = "750"        ; In ms | 1000ms = 1 sec | Default is 750
    PokeWhiteList = "Bulbasaur"
-   ```
+   ```      
      - The pokemon catcher only catches pokemon on the Whitelist, they must be correct spelling and capital first letter. The default settings have every pokemon.
+      
+   - These settings control the notifications
+   ```
+   [Notifications]
+   Legendary = True         ; True or False
+   Mythical = True          ; True or False
+   UltraBeast = True        ; True or False
+   EventPkmn = True         ; True or False
+   ```
       
    - Save settings.ini
    
@@ -105,3 +157,22 @@
 
 - Stop the bot by closing gotcha.exe
 
+## Recent Changes
+```
+- Fixed base64 for Flabebe
+- Created conversion tool for image/base64 [ personal use ]
+- Added p!pokedex claim all when reaching milestones
+   - New, 10th, & 100th catch
+- Added catch delay to settings.ini
+- Added notification settings to settings.ini
+- Added notifications for legendary/mythic/ultra beast/event pokemon
+- Updated the colorize() function
+- Cleaned up the command window
+- Changed message on 10th & 100th pokemon catch
+- p!catch pokemonName all lowercase
+   - To reduce detection as bot
+- Gotcha bot commands in discord 
+   - Currently supports changing settings.ini
+   - See commands.txt for reference or reference the wiki https://github.com/OniSensei/Gotcha-v2.1/wiki/Commands or see top of page
+- WhiteList pokemon are now counted as they load
+```

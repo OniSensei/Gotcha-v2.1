@@ -14,7 +14,9 @@
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.2](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.2) - Latest Release
+> [Gotcha v2.1.0.3](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.3) - Latest Release
+
+> [Gotcha v2.1.0.2](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.2) - Older - Stable
 
 > [Gotcha v2.1.0.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.1) - Older - Stable
 

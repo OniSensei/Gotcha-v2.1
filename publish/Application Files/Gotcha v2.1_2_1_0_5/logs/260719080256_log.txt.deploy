@@ -1,0 +1,475 @@
+7/26/2019 8:02:56 AM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/26/2019 8:02:58 AM  |  [INFO]      Connecting
+7/26/2019 8:02:58 AM  |  [INFO]      Connected
+7/26/2019 8:02:59 AM  |  [LOAD]      Channel: general2
+7/26/2019 8:02:59 AM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTj29Q.unLUrjzRqwN_zCyM636MXl-BDNM
+7/26/2019 8:02:59 AM  |  [LOAD]      Prefix: p!
+7/26/2019 8:02:59 AM  |  [LOAD]      AutoBal:                             Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      AutoSpam:                            Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      Catch Delay: 750
+7/26/2019 8:02:59 AM  |  [LOAD]      Spam Interval: 1500
+7/26/2019 8:02:59 AM  |  [LOAD]      828 Pokémon in Whitelist...
+7/26/2019 8:02:59 AM  |  [LOAD]      Legendary Notifications:             Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      Mythic Notifications:                Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      UltraBeast Notifications:            Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      Event PKMN Notifications:            Enabled
+7/26/2019 8:02:59 AM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/26/2019 8:03:03 AM  |  [INFO]      Bot Paused  | Press F12 to resume...
+7/26/2019 8:05:30 AM  |  [INFO]      Bot Resumed | Press F12 to pause...
+7/26/2019 8:06:22 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:06:27 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 8 Luvdisc!
+7/26/2019 8:06:27 AM  |  [INFO]      Stats: Seen: 1 | Caught: 1 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:06:27 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:06:27 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Luvdisc [ NEW ]
+7/26/2019 8:07:53 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:07:55 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 26 Cleffa!
+7/26/2019 8:07:55 AM  |  [INFO]      Stats: Seen: 2 | Caught: 2 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:07:55 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:07:55 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Cleffa [ NEW ]
+7/26/2019 8:08:52 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:08:54 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 26 Girafarig!
+7/26/2019 8:08:54 AM  |  [INFO]      Stats: Seen: 3 | Caught: 3 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:08:54 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:08:54 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Girafarig [ NEW ]
+7/26/2019 8:09:11 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:09:16 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Togepi!
+7/26/2019 8:09:16 AM  |  [INFO]      Stats: Seen: 4 | Caught: 4 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:09:16 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:09:16 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Togepi [ NEW ]
+7/26/2019 8:10:37 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:10:40 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Reuniclus!
+7/26/2019 8:10:40 AM  |  [INFO]      Stats: Seen: 5 | Caught: 5 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:10:40 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:10:40 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Reuniclus [ NEW ]
+7/26/2019 8:11:05 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:11:07 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 19 Cinccino!
+7/26/2019 8:11:07 AM  |  [INFO]      Stats: Seen: 6 | Caught: 6 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:11:07 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:11:07 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Cinccino [ NEW ]
+7/26/2019 8:11:39 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:11:42 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Lucario!
+7/26/2019 8:11:42 AM  |  [INFO]      Stats: Seen: 7 | Caught: 7 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:11:42 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:11:42 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Lucario [ NEW ]
+7/26/2019 8:12:50 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:12:53 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 4 Meditite!
+7/26/2019 8:12:53 AM  |  [INFO]      Stats: Seen: 8 | Caught: 8 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:12:53 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:12:53 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Meditite [ NEW ]
+7/26/2019 8:13:08 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:13:12 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 20 Salazzle!
+7/26/2019 8:13:12 AM  |  [INFO]      Stats: Seen: 9 | Caught: 9 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:13:12 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:13:12 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Salazzle [ NEW ]
+7/26/2019 8:13:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:13:49 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Spinda!
+7/26/2019 8:13:49 AM  |  [INFO]      Stats: Seen: 10 | Caught: 10 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:13:49 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:13:49 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Spinda [ NEW ]
+7/26/2019 8:14:04 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:14:07 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 36 Rapidash!
+7/26/2019 8:14:07 AM  |  [INFO]      Stats: Seen: 11 | Caught: 11 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:14:07 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:14:07 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Rapidash [ NEW ]
+7/26/2019 8:15:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:15:49 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Skiddo!
+7/26/2019 8:15:49 AM  |  [INFO]      Stats: Seen: 12 | Caught: 12 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:15:49 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:15:49 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Skiddo [ NEW ]
+7/26/2019 8:16:51 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:16:53 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Bayleef!
+7/26/2019 8:16:53 AM  |  [INFO]      Stats: Seen: 13 | Caught: 13 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:16:53 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:16:53 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Bayleef [ NEW ]
+7/26/2019 8:17:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:17:49 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 35 Psyduck! This is your 10th Psyduck!
+7/26/2019 8:17:49 AM  |  [INFO]      Stats: Seen: 14 | Caught: 14 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 8:17:49 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:17:49 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Psyduck [ NEW ]
+7/26/2019 8:17:50 AM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/26/2019 8:19:30 AM  |  [LEVEL]     Your Pansage is now level 6!
+7/26/2019 8:19:45 AM  |  [LEVEL]     Your Pansage is now level 7!
+7/26/2019 8:19:45 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:19:48 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 36 Rufflet!
+7/26/2019 8:19:48 AM  |  [INFO]      Stats: Seen: 15 | Caught: 15 | Catch Rate: 100% | Levels Gained: 2 | Evolutions Gained: 0
+7/26/2019 8:19:48 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:19:48 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Rufflet [ NEW ]
+7/26/2019 8:20:10 AM  |  [LEVEL]     Your Pansage is now level 8!
+7/26/2019 8:20:32 AM  |  [LEVEL]     Your Pansage is now level 9!
+7/26/2019 8:20:49 AM  |  [LEVEL]     Your Pansage is now level 10!
+7/26/2019 8:21:15 AM  |  [LEVEL]     Your Pansage is now level 11!
+7/26/2019 8:21:18 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:21:20 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Magikarp!
+7/26/2019 8:21:20 AM  |  [INFO]      Stats: Seen: 16 | Caught: 16 | Catch Rate: 100% | Levels Gained: 6 | Evolutions Gained: 0
+7/26/2019 8:21:20 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:21:20 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Magikarp [ NEW ]
+7/26/2019 8:21:40 AM  |  [LEVEL]     Your Pansage is now level 12!
+7/26/2019 8:22:06 AM  |  [LEVEL]     Your Pansage is now level 13!
+7/26/2019 8:22:14 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:22:16 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 27 Petilil!
+7/26/2019 8:22:16 AM  |  [INFO]      Stats: Seen: 17 | Caught: 17 | Catch Rate: 100% | Levels Gained: 8 | Evolutions Gained: 0
+7/26/2019 8:22:16 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:22:16 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Petilil [ NEW ]
+7/26/2019 8:22:35 AM  |  [LEVEL]     Your Pansage is now level 14!
+7/26/2019 8:22:43 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:22:45 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Geodude!
+7/26/2019 8:22:45 AM  |  [INFO]      Stats: Seen: 18 | Caught: 18 | Catch Rate: 100% | Levels Gained: 9 | Evolutions Gained: 0
+7/26/2019 8:22:45 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:22:45 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Geodude [ NEW ]
+7/26/2019 8:23:07 AM  |  [LEVEL]     Your Pansage is now level 15!
+7/26/2019 8:23:19 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:23:22 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 25 Stunfisk!
+7/26/2019 8:23:22 AM  |  [INFO]      Stats: Seen: 19 | Caught: 19 | Catch Rate: 100% | Levels Gained: 10 | Evolutions Gained: 0
+7/26/2019 8:23:22 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:23:22 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Stunfisk [ NEW ]
+7/26/2019 8:23:37 AM  |  [LEVEL]     Your Pansage is now level 16!
+7/26/2019 8:24:03 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:24:06 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 19 Unown!
+7/26/2019 8:24:06 AM  |  [INFO]      Stats: Seen: 20 | Caught: 20 | Catch Rate: 100% | Levels Gained: 11 | Evolutions Gained: 0
+7/26/2019 8:24:06 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:24:06 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Unown [ NEW ]
+7/26/2019 8:24:08 AM  |  [LEVEL]     Your Pansage is now level 17!
+7/26/2019 8:24:24 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:24:26 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 38 Gardevoir!
+7/26/2019 8:24:26 AM  |  [INFO]      Stats: Seen: 21 | Caught: 21 | Catch Rate: 100% | Levels Gained: 12 | Evolutions Gained: 0
+7/26/2019 8:24:26 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:24:26 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Gardevoir [ NEW ]
+7/26/2019 8:24:43 AM  |  [LEVEL]     Your Pansage is now level 18!
+7/26/2019 8:25:05 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:25:07 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 30 Abra!
+7/26/2019 8:25:07 AM  |  [INFO]      Stats: Seen: 22 | Caught: 22 | Catch Rate: 100% | Levels Gained: 13 | Evolutions Gained: 0
+7/26/2019 8:25:07 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:25:07 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Abra [ NEW ]
+7/26/2019 8:25:10 AM  |  [LEVEL]     Your Pansage is now level 19!
+7/26/2019 8:25:44 AM  |  [LEVEL]     Your Pansage is now level 20!
+7/26/2019 8:26:25 AM  |  [LEVEL]     Your Pansage is now level 21!
+7/26/2019 8:26:55 AM  |  [LEVEL]     Your Pansage is now level 22!
+7/26/2019 8:27:09 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:27:12 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 12 Pelipper!
+7/26/2019 8:27:12 AM  |  [INFO]      Stats: Seen: 23 | Caught: 23 | Catch Rate: 100% | Levels Gained: 17 | Evolutions Gained: 0
+7/26/2019 8:27:12 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:27:12 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pelipper [ NEW ]
+7/26/2019 8:27:36 AM  |  [LEVEL]     Your Pansage is now level 23!
+7/26/2019 8:28:01 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:28:03 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Diglett!
+7/26/2019 8:28:03 AM  |  [INFO]      Stats: Seen: 24 | Caught: 24 | Catch Rate: 100% | Levels Gained: 18 | Evolutions Gained: 0
+7/26/2019 8:28:03 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:28:03 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Diglett [ NEW ]
+7/26/2019 8:28:19 AM  |  [LEVEL]     Your Pansage is now level 24!
+7/26/2019 8:29:01 AM  |  [LEVEL]     Your Pansage is now level 25!
+7/26/2019 8:29:22 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:29:24 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Mime Jr.!
+7/26/2019 8:29:24 AM  |  [INFO]      Stats: Seen: 25 | Caught: 25 | Catch Rate: 100% | Levels Gained: 20 | Evolutions Gained: 0
+7/26/2019 8:29:24 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:29:24 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Mime Jr. [ NEW ]
+7/26/2019 8:29:42 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:29:44 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 22 Galvantula!
+7/26/2019 8:29:44 AM  |  [INFO]      Stats: Seen: 26 | Caught: 26 | Catch Rate: 100% | Levels Gained: 20 | Evolutions Gained: 0
+7/26/2019 8:29:44 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:29:44 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Galvantula [ NEW ]
+7/26/2019 8:29:46 AM  |  [LEVEL]     Your Pansage is now level 26!
+7/26/2019 8:30:12 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:30:15 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 16 Seviper!
+7/26/2019 8:30:15 AM  |  [INFO]      Stats: Seen: 27 | Caught: 27 | Catch Rate: 100% | Levels Gained: 21 | Evolutions Gained: 0
+7/26/2019 8:30:15 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:30:15 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Seviper [ NEW ]
+7/26/2019 8:30:32 AM  |  [LEVEL]     Your Pansage is now level 27!
+7/26/2019 8:31:14 AM  |  [LEVEL]     Your Pansage is now level 28!
+7/26/2019 8:32:05 AM  |  [LEVEL]     Your Pansage is now level 29!
+7/26/2019 8:32:58 AM  |  [LEVEL]     Your Pansage is now level 30!
+7/26/2019 8:33:12 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:33:15 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 12 Mudsdale!
+7/26/2019 8:33:15 AM  |  [INFO]      Stats: Seen: 28 | Caught: 28 | Catch Rate: 100% | Levels Gained: 25 | Evolutions Gained: 0
+7/26/2019 8:33:15 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:33:15 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Mudsdale [ NEW ]
+7/26/2019 8:33:44 AM  |  [LEVEL]     Your Pansage is now level 31!
+7/26/2019 8:34:26 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:34:28 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 5 Aron!
+7/26/2019 8:34:28 AM  |  [INFO]      Stats: Seen: 29 | Caught: 29 | Catch Rate: 100% | Levels Gained: 26 | Evolutions Gained: 0
+7/26/2019 8:34:28 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:34:28 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Aron [ NEW ]
+7/26/2019 8:34:30 AM  |  [LEVEL]     Your Pansage is now level 32!
+7/26/2019 8:35:21 AM  |  [LEVEL]     Your Pansage is now level 33!
+7/26/2019 8:36:12 AM  |  [LEVEL]     Your Pansage is now level 34!
+7/26/2019 8:37:06 AM  |  [LEVEL]     Your Pansage is now level 35!
+7/26/2019 8:37:18 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:37:21 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Meowth!
+7/26/2019 8:37:21 AM  |  [INFO]      Stats: Seen: 30 | Caught: 30 | Catch Rate: 100% | Levels Gained: 30 | Evolutions Gained: 0
+7/26/2019 8:37:21 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:37:21 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Meowth [ NEW ]
+7/26/2019 8:37:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:37:48 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 30 Buizel!
+7/26/2019 8:37:48 AM  |  [INFO]      Stats: Seen: 31 | Caught: 31 | Catch Rate: 100% | Levels Gained: 30 | Evolutions Gained: 0
+7/26/2019 8:37:48 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:37:48 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Buizel [ NEW ]
+7/26/2019 8:38:00 AM  |  [LEVEL]     Your Pansage is now level 36!
+7/26/2019 8:38:38 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:38:41 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 8 Seedot!
+7/26/2019 8:38:41 AM  |  [INFO]      Stats: Seen: 32 | Caught: 32 | Catch Rate: 100% | Levels Gained: 31 | Evolutions Gained: 0
+7/26/2019 8:38:41 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:38:41 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Seedot [ NEW ]
+7/26/2019 8:38:55 AM  |  [LEVEL]     Your Pansage is now level 37!
+7/26/2019 8:39:54 AM  |  [LEVEL]     Your Pansage is now level 38!
+7/26/2019 8:40:57 AM  |  [LEVEL]     Your Pansage is now level 39!
+7/26/2019 8:41:48 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:41:50 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 11 Gulpin!
+7/26/2019 8:41:50 AM  |  [INFO]      Stats: Seen: 33 | Caught: 33 | Catch Rate: 100% | Levels Gained: 34 | Evolutions Gained: 0
+7/26/2019 8:41:50 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:41:50 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Gulpin [ NEW ]
+7/26/2019 8:41:57 AM  |  [LEVEL]     Your Pansage is now level 40!
+7/26/2019 8:42:14 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:42:17 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 15 Starly!
+7/26/2019 8:42:17 AM  |  [INFO]      Stats: Seen: 34 | Caught: 34 | Catch Rate: 100% | Levels Gained: 35 | Evolutions Gained: 0
+7/26/2019 8:42:17 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:42:17 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Starly [ NEW ]
+7/26/2019 8:42:30 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:42:33 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 40 Scatterbug!
+7/26/2019 8:42:33 AM  |  [INFO]      Stats: Seen: 35 | Caught: 35 | Catch Rate: 100% | Levels Gained: 35 | Evolutions Gained: 0
+7/26/2019 8:42:33 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:42:33 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Scatterbug [ NEW ]
+7/26/2019 8:42:54 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:42:56 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Caterpie!
+7/26/2019 8:42:56 AM  |  [INFO]      Stats: Seen: 36 | Caught: 36 | Catch Rate: 100% | Levels Gained: 35 | Evolutions Gained: 0
+7/26/2019 8:42:56 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:42:56 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Caterpie [ NEW ]
+7/26/2019 8:43:07 AM  |  [LEVEL]     Your Pansage is now level 41!
+7/26/2019 8:44:05 AM  |  [LEVEL]     Your Pansage is now level 42!
+7/26/2019 8:44:13 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:44:17 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 13 Zoroark!
+7/26/2019 8:44:17 AM  |  [INFO]      Stats: Seen: 37 | Caught: 37 | Catch Rate: 100% | Levels Gained: 37 | Evolutions Gained: 0
+7/26/2019 8:44:17 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:44:17 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Zoroark [ NEW ]
+7/26/2019 8:44:59 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:45:02 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 23 Pachirisu!
+7/26/2019 8:45:02 AM  |  [INFO]      Stats: Seen: 38 | Caught: 38 | Catch Rate: 100% | Levels Gained: 37 | Evolutions Gained: 0
+7/26/2019 8:45:02 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:45:02 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pachirisu [ NEW ]
+7/26/2019 8:45:07 AM  |  [LEVEL]     Your Pansage is now level 43!
+7/26/2019 8:46:13 AM  |  [LEVEL]     Your Pansage is now level 44!
+7/26/2019 8:46:33 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:46:36 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 21 Ribombee!
+7/26/2019 8:46:36 AM  |  [INFO]      Stats: Seen: 39 | Caught: 39 | Catch Rate: 100% | Levels Gained: 39 | Evolutions Gained: 0
+7/26/2019 8:46:36 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:46:36 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Ribombee [ NEW ]
+7/26/2019 8:46:58 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:47:01 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 26 Luvdisc!
+7/26/2019 8:47:01 AM  |  [INFO]      Stats: Seen: 40 | Caught: 40 | Catch Rate: 100% | Levels Gained: 39 | Evolutions Gained: 0
+7/26/2019 8:47:01 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:47:01 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Luvdisc [ NEW ]
+7/26/2019 8:47:17 AM  |  [LEVEL]     Your Pansage is now level 45!
+7/26/2019 8:48:30 AM  |  [LEVEL]     Your Pansage is now level 46!
+7/26/2019 8:49:08 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:49:11 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Primeape!
+7/26/2019 8:49:11 AM  |  [INFO]      Stats: Seen: 41 | Caught: 41 | Catch Rate: 100% | Levels Gained: 41 | Evolutions Gained: 0
+7/26/2019 8:49:11 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:49:11 AM  |  [INFO]      Most caught pokemon: 2 - Luvdisc
+7/26/2019 8:49:40 AM  |  [LEVEL]     Your Pansage is now level 47!
+7/26/2019 8:49:51 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:49:54 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Sunkern!
+7/26/2019 8:49:54 AM  |  [INFO]      Stats: Seen: 42 | Caught: 42 | Catch Rate: 100% | Levels Gained: 42 | Evolutions Gained: 0
+7/26/2019 8:49:54 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:49:54 AM  |  [INFO]      Most caught pokemon: 2 - Luvdisc
+7/26/2019 8:50:50 AM  |  [LEVEL]     Your Pansage is now level 48!
+7/26/2019 8:50:58 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:51:01 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 12 Meowth!
+7/26/2019 8:51:01 AM  |  [INFO]      Stats: Seen: 43 | Caught: 43 | Catch Rate: 100% | Levels Gained: 43 | Evolutions Gained: 0
+7/26/2019 8:51:01 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:51:01 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Meowth [ NEW ]
+7/26/2019 8:51:23 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:51:25 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Cleffa!
+7/26/2019 8:51:25 AM  |  [INFO]      Stats: Seen: 44 | Caught: 44 | Catch Rate: 100% | Levels Gained: 43 | Evolutions Gained: 0
+7/26/2019 8:51:25 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:51:25 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Cleffa [ NEW ]
+7/26/2019 8:51:58 AM  |  [LEVEL]     Your Pansage is now level 49!
+7/26/2019 8:52:03 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:52:05 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 3 Empoleon!
+7/26/2019 8:52:05 AM  |  [INFO]      Stats: Seen: 45 | Caught: 45 | Catch Rate: 100% | Levels Gained: 44 | Evolutions Gained: 0
+7/26/2019 8:52:05 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:52:05 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 8:52:25 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:52:29 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Igglybuff!
+7/26/2019 8:52:29 AM  |  [INFO]      Stats: Seen: 46 | Caught: 46 | Catch Rate: 100% | Levels Gained: 44 | Evolutions Gained: 0
+7/26/2019 8:52:29 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:52:29 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 8:53:10 AM  |  [LEVEL]     Your Pansage is now level 50!
+7/26/2019 8:54:27 AM  |  [LEVEL]     Your Pansage is now level 51!
+7/26/2019 8:54:49 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:54:52 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Shroomish!
+7/26/2019 8:54:52 AM  |  [INFO]      Stats: Seen: 47 | Caught: 47 | Catch Rate: 100% | Levels Gained: 46 | Evolutions Gained: 0
+7/26/2019 8:54:52 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:54:52 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 8:55:39 AM  |  [LEVEL]     Your Pansage is now level 52!
+7/26/2019 8:56:51 AM  |  [LEVEL]     Your Pansage is now level 53!
+7/26/2019 8:57:12 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:57:15 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 30 Poochyena!
+7/26/2019 8:57:15 AM  |  [INFO]      Stats: Seen: 48 | Caught: 48 | Catch Rate: 100% | Levels Gained: 48 | Evolutions Gained: 0
+7/26/2019 8:57:15 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:57:15 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 8:58:08 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:58:10 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Cofagrigus!
+7/26/2019 8:58:10 AM  |  [INFO]      Stats: Seen: 49 | Caught: 49 | Catch Rate: 100% | Levels Gained: 48 | Evolutions Gained: 0
+7/26/2019 8:58:10 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:58:10 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 8:58:16 AM  |  [LEVEL]     Your Pansage is now level 54!
+7/26/2019 8:59:33 AM  |  [LEVEL]     Your Pansage is now level 55!
+7/26/2019 8:59:41 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 8:59:43 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Binacle!
+7/26/2019 8:59:43 AM  |  [INFO]      Stats: Seen: 50 | Caught: 50 | Catch Rate: 100% | Levels Gained: 50 | Evolutions Gained: 0
+7/26/2019 8:59:43 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 8:59:43 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:00:06 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:00:08 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 16 Bergmite!
+7/26/2019 9:00:08 AM  |  [INFO]      Stats: Seen: 51 | Caught: 51 | Catch Rate: 100% | Levels Gained: 50 | Evolutions Gained: 0
+7/26/2019 9:00:08 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:00:08 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:00:40 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:00:42 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 8 Gumshoos!
+7/26/2019 9:00:42 AM  |  [INFO]      Stats: Seen: 52 | Caught: 52 | Catch Rate: 100% | Levels Gained: 50 | Evolutions Gained: 0
+7/26/2019 9:00:42 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:00:42 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:00:53 AM  |  [LEVEL]     Your Pansage is now level 56!
+7/26/2019 9:01:20 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:01:23 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 5 Skitty!
+7/26/2019 9:01:23 AM  |  [INFO]      Stats: Seen: 53 | Caught: 53 | Catch Rate: 100% | Levels Gained: 51 | Evolutions Gained: 0
+7/26/2019 9:01:23 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:01:23 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:01:36 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:01:39 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 5 Remoraid!
+7/26/2019 9:01:39 AM  |  [INFO]      Stats: Seen: 54 | Caught: 54 | Catch Rate: 100% | Levels Gained: 51 | Evolutions Gained: 0
+7/26/2019 9:01:39 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:01:39 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:02:09 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:02:13 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 5 Venomoth!
+7/26/2019 9:02:13 AM  |  [INFO]      Stats: Seen: 55 | Caught: 55 | Catch Rate: 100% | Levels Gained: 51 | Evolutions Gained: 0
+7/26/2019 9:02:13 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:02:13 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:02:15 AM  |  [LEVEL]     Your Pansage is now level 57!
+7/26/2019 9:02:26 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:02:28 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Pichu!
+7/26/2019 9:02:28 AM  |  [INFO]      Stats: Seen: 56 | Caught: 56 | Catch Rate: 100% | Levels Gained: 52 | Evolutions Gained: 0
+7/26/2019 9:02:28 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:02:28 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:02:54 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:02:56 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Clauncher!
+7/26/2019 9:02:56 AM  |  [INFO]      Stats: Seen: 57 | Caught: 57 | Catch Rate: 100% | Levels Gained: 52 | Evolutions Gained: 0
+7/26/2019 9:02:56 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:02:56 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:03:32 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:03:34 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 23 Growlithe!
+7/26/2019 9:03:34 AM  |  [INFO]      Stats: Seen: 58 | Caught: 58 | Catch Rate: 100% | Levels Gained: 52 | Evolutions Gained: 0
+7/26/2019 9:03:34 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:03:34 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:03:36 AM  |  [LEVEL]     Your Pansage is now level 58!
+7/26/2019 9:03:59 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:04:01 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Hippopotas!
+7/26/2019 9:04:01 AM  |  [INFO]      Stats: Seen: 59 | Caught: 59 | Catch Rate: 100% | Levels Gained: 53 | Evolutions Gained: 0
+7/26/2019 9:04:01 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:04:01 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:04:30 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:04:33 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Slugma!
+7/26/2019 9:04:33 AM  |  [INFO]      Stats: Seen: 60 | Caught: 60 | Catch Rate: 100% | Levels Gained: 53 | Evolutions Gained: 0
+7/26/2019 9:04:33 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:04:33 AM  |  [INFO]      Most caught pokemon: 2 - Cleffa
+7/26/2019 9:05:01 AM  |  [LEVEL]     Your Pansage is now level 59!
+7/26/2019 9:06:07 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:06:09 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Caterpie!
+7/26/2019 9:06:09 AM  |  [INFO]      Stats: Seen: 61 | Caught: 61 | Catch Rate: 100% | Levels Gained: 54 | Evolutions Gained: 0
+7/26/2019 9:06:09 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:06:09 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Caterpie [ NEW ]
+7/26/2019 9:06:20 AM  |  [LEVEL]     Your Pansage is now level 60!
+7/26/2019 9:06:28 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:06:30 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Diglett!
+7/26/2019 9:06:30 AM  |  [INFO]      Stats: Seen: 62 | Caught: 62 | Catch Rate: 100% | Levels Gained: 55 | Evolutions Gained: 0
+7/26/2019 9:06:30 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:06:30 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Diglett [ NEW ]
+7/26/2019 9:06:51 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:06:54 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 41 Minun!
+7/26/2019 9:06:54 AM  |  [INFO]      Stats: Seen: 63 | Caught: 63 | Catch Rate: 100% | Levels Gained: 55 | Evolutions Gained: 0
+7/26/2019 9:06:54 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:06:54 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:07:22 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:07:24 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 34 Illumise!
+7/26/2019 9:07:24 AM  |  [INFO]      Stats: Seen: 64 | Caught: 64 | Catch Rate: 100% | Levels Gained: 55 | Evolutions Gained: 0
+7/26/2019 9:07:25 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:07:25 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:07:42 AM  |  [LEVEL]     Your Pansage is now level 61!
+7/26/2019 9:09:09 AM  |  [LEVEL]     Your Pansage is now level 62!
+7/26/2019 9:09:36 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:09:38 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 29 Croagunk!
+7/26/2019 9:09:38 AM  |  [INFO]      Stats: Seen: 65 | Caught: 65 | Catch Rate: 100% | Levels Gained: 57 | Evolutions Gained: 0
+7/26/2019 9:09:38 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:09:38 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:10:34 AM  |  [LEVEL]     Your Pansage is now level 63!
+7/26/2019 9:11:07 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:11:09 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 11 Bronzor!
+7/26/2019 9:11:09 AM  |  [INFO]      Stats: Seen: 66 | Caught: 66 | Catch Rate: 100% | Levels Gained: 58 | Evolutions Gained: 0
+7/26/2019 9:11:09 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:11:09 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:12:05 AM  |  [LEVEL]     Your Pansage is now level 64!
+7/26/2019 9:12:40 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:12:43 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 32 Slowpoke!
+7/26/2019 9:12:43 AM  |  [INFO]      Stats: Seen: 67 | Caught: 67 | Catch Rate: 100% | Levels Gained: 59 | Evolutions Gained: 0
+7/26/2019 9:12:43 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:12:43 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:13:03 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:13:06 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Excadrill!
+7/26/2019 9:13:06 AM  |  [INFO]      Stats: Seen: 68 | Caught: 68 | Catch Rate: 100% | Levels Gained: 59 | Evolutions Gained: 0
+7/26/2019 9:13:06 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:13:06 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:13:38 AM  |  [LEVEL]     Your Pansage is now level 65!
+7/26/2019 9:14:04 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:14:07 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 10 Pidgey!
+7/26/2019 9:14:07 AM  |  [INFO]      Stats: Seen: 69 | Caught: 69 | Catch Rate: 100% | Levels Gained: 60 | Evolutions Gained: 0
+7/26/2019 9:14:07 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:14:07 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:14:23 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:14:25 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Dewott!
+7/26/2019 9:14:25 AM  |  [INFO]      Stats: Seen: 70 | Caught: 70 | Catch Rate: 100% | Levels Gained: 60 | Evolutions Gained: 0
+7/26/2019 9:14:25 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:14:25 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:15:10 AM  |  [LEVEL]     Your Pansage is now level 66!
+7/26/2019 9:15:13 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:15:16 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 31 Gabite!
+7/26/2019 9:15:16 AM  |  [INFO]      Stats: Seen: 71 | Caught: 71 | Catch Rate: 100% | Levels Gained: 61 | Evolutions Gained: 0
+7/26/2019 9:15:16 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:15:16 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:16:46 AM  |  [LEVEL]     Your Pansage is now level 67!
+7/26/2019 9:17:02 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:17:05 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Trevenant!
+7/26/2019 9:17:05 AM  |  [INFO]      Stats: Seen: 72 | Caught: 72 | Catch Rate: 100% | Levels Gained: 62 | Evolutions Gained: 0
+7/26/2019 9:17:05 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:17:05 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:17:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:17:48 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 10 Ariados!
+7/26/2019 9:17:48 AM  |  [INFO]      Stats: Seen: 73 | Caught: 73 | Catch Rate: 100% | Levels Gained: 62 | Evolutions Gained: 0
+7/26/2019 9:17:48 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:17:48 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:18:12 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:18:16 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 30 Vibrava!
+7/26/2019 9:18:16 AM  |  [INFO]      Stats: Seen: 74 | Caught: 74 | Catch Rate: 100% | Levels Gained: 62 | Evolutions Gained: 0
+7/26/2019 9:18:16 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:18:16 AM  |  [INFO]      Most caught pokemon: 2 - Diglett
+7/26/2019 9:18:22 AM  |  [LEVEL]     Your Pansage is now level 68!
+7/26/2019 9:19:16 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:19:20 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Skitty!
+7/26/2019 9:19:20 AM  |  [INFO]      Stats: Seen: 75 | Caught: 75 | Catch Rate: 100% | Levels Gained: 63 | Evolutions Gained: 0
+7/26/2019 9:19:20 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:19:20 AM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Skitty [ NEW ]
+7/26/2019 9:20:01 AM  |  [LEVEL]     Your Pansage is now level 69!
+7/26/2019 9:20:46 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:20:49 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 37 Nincada!
+7/26/2019 9:20:49 AM  |  [INFO]      Stats: Seen: 76 | Caught: 76 | Catch Rate: 100% | Levels Gained: 64 | Evolutions Gained: 0
+7/26/2019 9:20:49 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:20:49 AM  |  [INFO]      Most caught pokemon: 2 - Skitty
+7/26/2019 9:21:33 AM  |  [LEVEL]     Your Pansage is now level 70!
+7/26/2019 9:22:27 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:22:30 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Hariyama!
+7/26/2019 9:22:30 AM  |  [INFO]      Stats: Seen: 77 | Caught: 77 | Catch Rate: 100% | Levels Gained: 65 | Evolutions Gained: 0
+7/26/2019 9:22:30 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:22:30 AM  |  [INFO]      Most caught pokemon: 2 - Skitty
+7/26/2019 9:23:15 AM  |  [LEVEL]     Your Pansage is now level 71!
+7/26/2019 9:23:23 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:23:25 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 27 Glameow!
+7/26/2019 9:23:25 AM  |  [INFO]      Stats: Seen: 78 | Caught: 78 | Catch Rate: 100% | Levels Gained: 66 | Evolutions Gained: 0
+7/26/2019 9:23:25 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:23:25 AM  |  [INFO]      Most caught pokemon: 2 - Skitty

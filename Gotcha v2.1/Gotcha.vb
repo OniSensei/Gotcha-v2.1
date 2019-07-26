@@ -39,6 +39,8 @@ Module Gotcha
     Dim iniSettings As New IniConfigSource("settings.ini")
     Dim token As String = iniSettings.Configs("Basic").Get("BotToken")
     Dim channel As String = iniSettings.Configs("Basic").Get("Channel")
+    Dim pokePrefix As String = iniSettings.Configs("Basic").Get("Prefix")
+    Dim version As String = iniSettings.Configs("Basic").Get("Version")
     Dim spamInterval As Integer = iniSettings.Configs("Spam").Get("SpamInterval")
     Dim autoSpam As Boolean = iniSettings.Configs("Spam").Get("AutoSpam")
     Dim autoBal As Boolean = iniSettings.Configs("Catch").Get("AutoBal")
@@ -86,7 +88,7 @@ Module Gotcha
         Colorize("|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|")
         Colorize("")
         Colorize("____________________________________________________________")
-        Colorize("              [ Loading Gotcha v2.1.0.2 ]                   ")
+        Colorize("              [ Loading Gotcha v" & version & " ]                   ")
         ' Set thread
         Threading.Thread.CurrentThread.SetApartmentState(Threading.ApartmentState.STA)
         ' Wait for login using our token
@@ -105,6 +107,7 @@ Module Gotcha
             Colorize("                    [ SETTINGS.INI ]                        ")
             Colorize("[LOAD]      Channel: " & channel)
             Colorize("[LOAD]      Token: " & token)
+            Colorize("[LOAD]      Prefix: " & pokePrefix)
             If autoBal = True Then
                 Colorize("[LOAD]      AutoBal:                             Enabled")
             Else
@@ -242,7 +245,7 @@ Module Gotcha
                 If message.Content.Contains("Added to Pokédex") And autoBal = True Then
                     Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
-                    SendKeys.SendWait("p!pokedex claim all") ' Send the command to collect balance
+                    SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
                     ' Update console
@@ -250,7 +253,7 @@ Module Gotcha
                 ElseIf message.Content.Contains("10th") And autoBal = True Then
                     Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
-                    SendKeys.SendWait("p!pokedex claim all") ' Send the command to collect balance
+                    SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
                     ' Update console
@@ -258,7 +261,7 @@ Module Gotcha
                 ElseIf message.Content.Contains("100th") And autoBal = True Then
                     Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
-                    SendKeys.SendWait("p!pokedex claim all") ' Send the command to collect balance
+                    SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
                     ' Update console
@@ -317,7 +320,7 @@ Module Gotcha
                                         rPokemon = pokemonName
                                         ' Catch delay
                                         Threading.Thread.Sleep(catchDelay)
-                                        SendKeys.SendWait("p!catch " & pokemonName.ToLower) ' Actual catch
+                                        SendKeys.SendWait(pokePrefix & "catch " & pokemonName.ToLower) ' Actual catch
                                         SendKeys.SendWait("{Enter}")
                                     End If
                                     Exit For
@@ -444,9 +447,17 @@ Module Gotcha
                             iniSettings.Configs("Notifications").Set("EventPokemon", "False")
                             Colorize("[INFO]      Settings updated | EventPokemon = Flase")
                         End If
+                    ElseIf param2 = "[prefix]" Then ' Prefix changes
+                        param3 = param3.Substring(1)
+                        param3 = param3.Substring(0, param3.Length - 1)
+                        catchDelay = param3
+                        iniSettings.Configs("Basic").Set("Version", param3)
+                        Colorize("[INFO]      Settings updated | CatchDelay = " & param3)
                     ElseIf param2 = "[reload]" Then ' Reload settings
                         token = iniSettings.Configs("Basic").Get("BotToken")
                         channel = iniSettings.Configs("Basic").Get("Channel")
+                        pokePrefix = iniSettings.Configs("Basic").Get("Prefix")
+                        version = iniSettings.Configs("Basic").Get("Version")
                         spamInterval = iniSettings.Configs("Spam").Get("SpamInterval")
                         autoSpam = iniSettings.Configs("Spam").Get("AutoSpam")
                         autoBal = iniSettings.Configs("Catch").Get("AutoBal")
@@ -456,6 +467,12 @@ Module Gotcha
                         mythicToggle = iniSettings.Configs("Notifications").Get("Mythical")
                         ultraToggle = iniSettings.Configs("Notifications").Get("UltraBeast")
                         eventToggle = iniSettings.Configs("Notifications").Get("EventPkmn")
+                        MainTimer.Interval = spamInterval
+                        If autoSpam = True Then
+                            MainTimer.Start()
+                        Else
+                            MainTimer.Stop()
+                        End If
                         Colorize("[INFO]      Settings Reloaded...")
                     End If
                     iniSettings.Save() ' Save settings.ini

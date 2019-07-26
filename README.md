@@ -14,7 +14,11 @@
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.2](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.2) - Latest Release
+> [Gotcha v2.1.0.4](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.4) - Hotfix - Latest Release
+
+> [Gotcha v2.1.0.3](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.3) - Older - Stable
+
+> [Gotcha v2.1.0.2](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.2) - Older - Stable
 
 > [Gotcha v2.1.0.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.1) - Older - Stable
 
@@ -162,20 +166,6 @@ Settings Commands: (you must include the "[]" brackets.)
 
 ## Recent Changes
 ```
-- Fixed base64 for Flabebe
-- Created conversion tool for image/base64 [ personal use ]
-- Added p!pokedex claim all when reaching milestones
-   - New, 10th, & 100th catch
-- Added catch delay to settings.ini
-- Added notification settings to settings.ini
-- Added notifications for legendary/mythic/ultra beast/event pokemon
-- Updated the colorize() function
-- Cleaned up the command window
-- Changed message on 10th & 100th pokemon catch
-- p!catch pokemonName all lowercase
-   - To reduce detection as bot
-- Gotcha bot commands in discord 
-   - Currently supports changing settings.ini
-   - See commands.txt for reference or reference the wiki https://github.com/OniSensei/Gotcha-v2.1/wiki/Commands or see top of page
-- WhiteList pokemon are now counted as they load
+- Added pokecord prefix settings to settings.ini
+- Added version to settings.ini for auto updates in the future
 ```

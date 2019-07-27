@@ -14,7 +14,9 @@
 ## Downloads
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.4](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.4) - Hotfix - Latest Release
+> [Gotcha v2.1.0.5](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.4) - Latest Release
+
+> [Gotcha v2.1.0.4](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.4) - Hotfix - Older - Stable
 
 > [Gotcha v2.1.0.3](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.3) - Older - Stable
 
@@ -166,6 +168,13 @@ Settings Commands: (you must include the "[]" brackets.)
 
 ## Recent Changes
 ```
-- Added pokecord prefix settings to settings.ini
-- Added version to settings.ini for auto updates in the future
+- Updated whitelist check
+- Added Pokécord online status check
+- Added function to auto swap Pokémon when level = 100
+- Added shiny notifications
+- Updated settings.ini
+  - Added AutoUpdate toggle
+  - Added AutoLevel toggle for new auto swap feature
+  - Added Shiny toggle for shiny notifications
+- Auto updates
 ```

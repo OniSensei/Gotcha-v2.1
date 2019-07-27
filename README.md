@@ -1,12 +1,12 @@
 # Gotcha-v2.1
+
+[![Gitter](https://badges.gitter.im/Gotcha-v2-1/community.svg)](https://gitter.im/Gotcha-v2-1/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ### Auto spammer / catcher for discord bot pokecord
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
 ## Preview
 ![preview](https://imgur.com/nogZlZY.png)
-
-## Discord
-> [Join the Discord](https://discord.gg/6ByeEMy)
 
 ## Video guide
 > [Youtube](https://www.youtube.com/watch?v=Hc1msF5jaEY)

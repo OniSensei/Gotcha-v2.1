@@ -10,7 +10,7 @@
 ![preview](https://imgur.com/nogZlZY.png)
 
 ## Video guide
-> [Youtube](https://www.youtube.com/watch?v=Hc1msF5jaEY)
+> [Youtube](https://www.youtube.com/watch?v=Fk16LdoEyRY)
 
 ## Downloads
 

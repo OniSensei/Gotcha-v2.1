@@ -1,5 +1,6 @@
 # Gotcha-v2.1
 
+## Support
 [![Gitter](https://badges.gitter.im/Gotcha-v2-1/community.svg)](https://gitter.im/Gotcha-v2-1/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### Auto spammer / catcher for discord bot pokecord

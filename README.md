@@ -16,7 +16,9 @@
 
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.5](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.5) - Latest Release - New auto update feature. This can be turned off in settings.ini
+> [Gotcha v2.1.0.6](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.6) - Latest Release - Not needed if you use auto update.
+
+> [Gotcha v2.1.0.5](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.5) - Older - New auto update feature. This can be turned off in settings.ini
 
 > [Gotcha v2.1.0.4](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.4) - Hotfix - Older - Stable
 
@@ -80,7 +82,7 @@ Settings Commands: (you must include the "[]" brackets.)
          
    ![Name Bot](https://imgur.com/wdj544W.png)
          
-   - Click the 'Bot' tab under settings on the right toolbar
+   - Click the 'Bot' tab under settings on the left toolbar
          
    ![Bot Tab](https://imgur.com/1UCYlma.png)
          
@@ -91,52 +93,8 @@ Settings Commands: (you must include the "[]" brackets.)
    - Click 'Yes do it' in the pop-up
        
    ![Yes do it](https://imgur.com/HWg5AZ8.png)
-        
-   - Click 'Copy' button located under the token
-         
-   ![Copy Token](https://imgur.com/ImHZxNG.png)
-         
-   - Paste the token into settings.ini | It should look something like this:
-   
-   ![Token Settings](https://imgur.com/KOP60Zg.png)
-   
-   - Replace 'general2' under 'Channel' with your discord channel name
-   
-   - These settings tell the bot who it is and where 
-   ```
-   [Basic]
-   Channel = "general" 
-   BotToken = "NTk3MjY3MjU5MjUzMTk0Nzkz.XTaFGw.NARvf5ktmSG93ujfdsfUdwD-kRwoTY"
-   ```
-   
-   - These settings control the auto spammer
-   ```
-   [Spam]
-   SpamInterval = "1500"     ; In ms | 1000ms = 1 sec | Default is 1500
-   AutoSpam = "True"         ; True or False
-   ```
-   
-   - These settings control the auto catcher
-   ```
-   [Catch]
-   AutoBal = "True"          ; True or False | This sends p!pokedex claim all after a new pokemon is added to pokedex
-   CatchDelay = "750"        ; In ms | 1000ms = 1 sec | Default is 750
-   PokeWhiteList = "Bulbasaur"
-   ```      
-     - The pokemon catcher only catches pokemon on the Whitelist, they must be correct spelling and capital first letter. The default settings have every pokemon.
-      
-   - These settings control the notifications
-   ```
-   [Notifications]
-   Legendary = True         ; True or False
-   Mythical = True          ; True or False
-   UltraBeast = True        ; True or False
-   EventPkmn = True         ; True or False
-   ```
-      
-   - Save settings.ini
-   
-   - Go back to the Discord Developer Portal and select 'OAuth2' tab under settings on the right toolbar
+     
+   - Select 'OAuth2' tab under settings on the left toolbar
          
    ![OAuth2](https://imgur.com/z24sHdA.png)
         
@@ -150,23 +108,95 @@ Settings Commands: (you must include the "[]" brackets.)
      
    ![Authorize Bot](https://imgur.com/rFa3MHP.png)
    
-- Add / Remove / Edit any spam chats
-  - This bot spams the chat automatically to incourage spawns
-    - Located in the Gotcha v2.1 root folder there is spamchat.txt
-      - Add a line to add a spam chat.
-      - Modify a line to change a spam chat.
-      - Remove a line to remove a spam chat
+   - Go back to the developer portal at  and select the Bot tab again.
+   
+   ![Bot Tab](https://imgur.com/1UCYlma.png)
+   
+   - Click 'Copy' button located under the token
+         
+   ![Copy Token](https://imgur.com/ImHZxNG.png)
+        
+   - Make sure your discord desktop client is running *(this does not work with discord on webclients like chrome etc)*
+   
+   - Download the latest version of the bot
+      - > https://github.com/OniSensei/Gotcha-v2.1/releases
+    
+    ![Downloading](https://imgur.com/KRCFL1n.png)
+    
+   - Extract the zip to the desktop or my documents, somewhere you can find it easily.
+   
+   ![Extracted](https://imgur.com/wARredw.png)
+   
+   - Open the folder Gotcha v2.1 that was extracted from the zip and start Gotcha v2.1.exe
+     - If you do not want the auto updater to run you need to go to /config/settings.ini and change AutoUpdate to False
+     - If you want to change any settings beforehand please check /config/settings.ini and change them
+     - If you want to change any settings during the bot running, use the commands located in this readme
+     - If you want to pause the bot press F12
+   
+   ![Application](https://imgur.com/xrF5K8H.png)
+   
+   - If there is an update the auto updated will automatically start. If not then the bot will ask you for your token.
+     - This is the token we coppied in the step above, paste it using CTRL + V and press enter
+     
+     - The updater should now be asking you for the channel name
+       - This is the name of the channel you will be spamming and catching pokemon in, on discord, do not include the #
+     
+     - Once complete the bot should start.
+     
+   - If there is no update the bot should start.
+   
+## /config/settings.ini explaned
+```
+[Basic]
+// The channel name - this is used to find the discord window to spam messages and catch pokemon
+Channel = general
 
-- Extract the Gotcha v2.1 Folder from the Gotcha v2.1.zip file
+// The bot token used to log into the bot we invite - used to read pokecord messages - dont share this token!
+BotToken = 
 
-- Before starting the bot please ensure the following:
-   - Discord client is running
-   - Your discord client is in your server with the bot added
-   - You are chatting in the channel you set in channel.txt
+// The pokecord prefix for your server 
+Prefix = p!
 
-- Start the bot by double clicking Gotcha v2.1.exe
+// The current bot version you are using - used to update bot
+Version = 2.1.0.6
 
-- Stop the bot by closing gotcha.exe
+// Auto updater toggle - if False then the bot will not auto update
+AutoUpdate = True
+```
+
+```
+[Spam]
+// This is how offten the bot will try to send a spam message in ms [1000ms = 1sec]
+SpamInterval = 1500
+
+// This is the Auto Spammer toggle - if False then the bot will not spam
+AutoSpam = True
+
+// This is the Auto Level toggle - if False then the bot will not switch pokemon when they reach level 100
+AutoLevel = True
+```
+
+```
+[Catch]
+// This is the Auto Ballance toggle - if False then the bot will not collect pokedex rewards automatically
+AutoBal = True
+
+// This is the catch delay - it is used so we dont catch the pokemon super quick and makes it look more life like
+CatchDelay = 750
+
+// These are the pokemon you want to catch - Spelling must be correct, and CaSeSeNsItIvE by default the list has 829 pokemon which includes all pokemon catchable at the moment im writing this.
+PokeWhitelist = Detective Pikachu, Bulbasaur, Ivysaur, Venusaur
+```
+
+```
+[Notifications]
+// Notifications will pm the user if set to True when the user catches the corresponding pokemon .
+Legendary = True
+Mythical = True
+UltraBeast = True
+EventPkmn = True
+Shiny = True
+```
 
 ## Recent Changes
 ```

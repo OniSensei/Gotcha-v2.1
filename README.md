@@ -1,4 +1,5 @@
 # Gotcha-v2.1
+[![Feature Requests](https://feathub.com/OniSensei/Gotcha-v2.1?format=svg)](https://feathub.com/OniSensei/Gotcha-v2.1)
 
 ## Support
 > Discord: DefaulT#2648

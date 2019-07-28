@@ -1,0 +1,22 @@
+7/24/2019 10:35:46 AM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/24/2019 10:35:47 AM  |  [INFO]      Connecting
+7/24/2019 10:35:48 AM  |  [INFO]      Connected
+7/24/2019 10:35:48 AM  |  [LOAD]      Loading Gotcha v2.1.0.2
+7/24/2019 10:35:48 AM  |  [LOAD]      Channel: general2
+7/24/2019 10:35:48 AM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTaJJA.YoCuueUH0c0LpaXkJo22Aj40IzA
+7/24/2019 10:35:48 AM  |  [LOAD]      AutoBal:                             Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      AutoSpam:                            Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      Catch Delay: 750
+7/24/2019 10:35:48 AM  |  [LOAD]      Spam Interval: 1500
+7/24/2019 10:35:48 AM  |  [LOAD]      828 Pokémon in Whitelist...
+7/24/2019 10:35:48 AM  |  [LOAD]      Legendary Notifications:             Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      Mythic Notifications:                Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      UltraBeast Notifications:            Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      Event PKMN Notifications:            Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      Shiny Notifications:                 Enabled
+7/24/2019 10:35:48 AM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/24/2019 10:35:53 AM  |  [INFO]      Bot Paused | Press F12 to resume...
+7/24/2019 10:38:42 AM  |  [INFO]      Disconnecting
+7/24/2019 10:38:42 AM  |  [INFO]      Disconnected
+7/24/2019 10:38:43 AM  |  [INFO]      Connecting
+7/24/2019 10:38:43 AM  |  [INFO]      Resumed previous session

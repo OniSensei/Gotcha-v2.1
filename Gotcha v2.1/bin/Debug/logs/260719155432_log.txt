@@ -1,0 +1,22 @@
+7/26/2019 3:54:33 PM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/26/2019 3:54:34 PM  |  [INFO]      Connecting
+7/26/2019 3:54:35 PM  |  [INFO]      Connected
+7/26/2019 3:54:35 PM  |  [LOAD]      Channel: general2
+7/26/2019 3:54:35 PM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTuEmA.e15R0e-TsNYae26jT2WDnuL8Ck0
+7/26/2019 3:54:35 PM  |  [LOAD]      Prefix: p!
+7/26/2019 3:54:35 PM  |  [LOAD]      Catch Delay: 750
+7/26/2019 3:54:36 PM  |  [LOAD]      Spam Interval: 1500
+7/26/2019 3:54:36 PM  |  [LOAD]      828 Pokémon in Whitelist...
+7/26/2019 3:54:36 PM  |  [LOAD]      AutoUpdate:                              Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      AutoBal:                                 Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      AutoSpam:                                Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      AutoLevel:                               Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      Legendary Notifications:                 Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      Mythic Notifications:                    Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      UltraBeast Notifications:                Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      Event PKMN Notifications:                Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      Shiny Notifications:                     Enabled
+7/26/2019 3:54:36 PM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/26/2019 3:54:37 PM  |  [ERROR]     Cannot locate spamchat.txt...
+7/26/2019 3:54:39 PM  |  [ERROR]     Cannot locate spamchat.txt...
+7/26/2019 3:54:40 PM  |  [ERROR]     Cannot locate spamchat.txt...

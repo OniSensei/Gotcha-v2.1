@@ -1,0 +1,17 @@
+7/24/2019 9:58:09 AM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/24/2019 9:58:10 AM  |  [INFO]      Connecting
+7/24/2019 9:58:11 AM  |  [INFO]      Connected
+7/24/2019 9:58:11 AM  |  [LOAD]      Loading Gotcha v2.1.0.2
+7/24/2019 9:58:11 AM  |  [LOAD]      Channel: general2
+7/24/2019 9:58:11 AM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTaJJA.YoCuueUH0c0LpaXkJo22Aj40IzA
+7/24/2019 9:58:11 AM  |  [LOAD]      AutoBal: Enabled
+7/24/2019 9:58:11 AM  |  [LOAD]      AutoSpam: Enabled
+7/24/2019 9:58:11 AM  |  [LOAD]      Catch Delay: 750
+7/24/2019 9:58:11 AM  |  [LOAD]      Spam Interval: 1500
+7/24/2019 9:58:11 AM  |  [LOAD]      Loading whitelist... 828 pokemon loaded from whitelist...
+7/24/2019 9:58:11 AM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/24/2019 9:58:37 AM  |  [LEVEL]     Your Silcoon is now level 43!
+7/24/2019 9:58:41 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 9:58:43 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Quilladin!
+7/24/2019 9:58:43 AM  |  [INFO]      Stats: Seen: 1 | Caught: 1 | Catch Rate: 100% | Levels Gained: 1 | Evolutions Gained: 0
+7/24/2019 9:58:43 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0

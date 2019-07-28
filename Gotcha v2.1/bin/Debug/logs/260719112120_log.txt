@@ -1,0 +1,111 @@
+7/26/2019 11:21:20 AM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/26/2019 11:21:22 AM  |  [INFO]      Connecting
+7/26/2019 11:21:24 AM  |  [INFO]      Connected
+7/26/2019 11:21:24 AM  |  [LOAD]      Channel: general2
+7/26/2019 11:21:24 AM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTj29Q.unLUrjzRqwN_zCyM636MXl-BDNM
+7/26/2019 11:21:24 AM  |  [LOAD]      Prefix: p!
+7/26/2019 11:21:24 AM  |  [LOAD]      Catch Delay: 750
+7/26/2019 11:21:24 AM  |  [LOAD]      Spam Interval: 1500
+7/26/2019 11:21:24 AM  |  [LOAD]      828 Pokémon in Whitelist...
+7/26/2019 11:21:24 AM  |  [LOAD]      AutoUpdate:                              Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      AutoBal:                                 Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      AutoSpam:                                Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      AutoLevel:                               Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      Legendary Notifications:                 Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      Mythic Notifications:                    Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      UltraBeast Notifications:                Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      Event PKMN Notifications:                Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      Shiny Notifications:                     Enabled
+7/26/2019 11:21:24 AM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/26/2019 11:22:27 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:22:31 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 34 Venipede!
+7/26/2019 11:22:31 AM  |  [INFO]      Stats: Seen: 1 | Caught: 1 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 11:22:31 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:22:31 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Venipede [ NEW ]
+7/26/2019 11:23:07 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:23:10 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 17 Igglybuff!
+7/26/2019 11:23:10 AM  |  [INFO]      Stats: Seen: 2 | Caught: 2 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/26/2019 11:23:10 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:23:10 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Igglybuff [ NEW ]
+7/26/2019 11:23:34 AM  |  [LEVEL]     Your Carbink is now level 92!
+7/26/2019 11:23:58 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:24:00 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 4 Barbaracle!
+7/26/2019 11:24:00 AM  |  [INFO]      Stats: Seen: 3 | Caught: 3 | Catch Rate: 100% | Levels Gained: 1 | Evolutions Gained: 0
+7/26/2019 11:24:00 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:24:00 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Barbaracle [ NEW ]
+7/26/2019 11:24:26 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:24:28 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 1 Gallade!
+7/26/2019 11:24:28 AM  |  [INFO]      Stats: Seen: 4 | Caught: 4 | Catch Rate: 100% | Levels Gained: 1 | Evolutions Gained: 0
+7/26/2019 11:24:28 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:24:28 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Gallade [ NEW ]
+7/26/2019 11:24:48 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:24:52 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 11 Shellos!
+7/26/2019 11:24:52 AM  |  [INFO]      Stats: Seen: 5 | Caught: 5 | Catch Rate: 100% | Levels Gained: 1 | Evolutions Gained: 0
+7/26/2019 11:24:52 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:24:52 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Shellos [ NEW ]
+7/26/2019 11:25:35 AM  |  [LEVEL]     Your Carbink is now level 93!
+7/26/2019 11:26:01 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:26:04 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 20 Shroomish!
+7/26/2019 11:26:04 AM  |  [INFO]      Stats: Seen: 6 | Caught: 6 | Catch Rate: 100% | Levels Gained: 2 | Evolutions Gained: 0
+7/26/2019 11:26:04 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:26:04 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Shroomish [ NEW ]
+7/26/2019 11:26:20 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:26:23 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Mareanie!
+7/26/2019 11:26:23 AM  |  [INFO]      Stats: Seen: 7 | Caught: 7 | Catch Rate: 100% | Levels Gained: 2 | Evolutions Gained: 0
+7/26/2019 11:26:23 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:26:23 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Mareanie [ NEW ]
+7/26/2019 11:27:29 AM  |  [LEVEL]     Your Carbink is now level 94!
+7/26/2019 11:27:58 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:28:00 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Feebas!
+7/26/2019 11:28:00 AM  |  [INFO]      Stats: Seen: 8 | Caught: 8 | Catch Rate: 100% | Levels Gained: 3 | Evolutions Gained: 0
+7/26/2019 11:28:00 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:28:00 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Feebas [ NEW ]
+7/26/2019 11:28:32 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:28:37 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 19 Zigzagoon!
+7/26/2019 11:28:37 AM  |  [INFO]      Stats: Seen: 9 | Caught: 9 | Catch Rate: 100% | Levels Gained: 3 | Evolutions Gained: 0
+7/26/2019 11:28:37 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:28:37 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Zigzagoon [ NEW ]
+7/26/2019 11:29:32 AM  |  [LEVEL]     Your Carbink is now level 95!
+7/26/2019 11:29:39 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:29:43 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 15 Throh!
+7/26/2019 11:29:43 AM  |  [INFO]      Stats: Seen: 10 | Caught: 10 | Catch Rate: 100% | Levels Gained: 4 | Evolutions Gained: 0
+7/26/2019 11:29:43 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:29:43 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Throh [ NEW ]
+7/26/2019 11:31:27 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:31:31 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 22 Wormadam!
+7/26/2019 11:31:31 AM  |  [INFO]      Stats: Seen: 11 | Caught: 11 | Catch Rate: 100% | Levels Gained: 4 | Evolutions Gained: 0
+7/26/2019 11:31:31 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:31:31 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Wormadam [ NEW ]
+7/26/2019 11:31:43 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:31:45 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 30 Altaria!
+7/26/2019 11:31:45 AM  |  [INFO]      Stats: Seen: 12 | Caught: 12 | Catch Rate: 100% | Levels Gained: 4 | Evolutions Gained: 0
+7/26/2019 11:31:45 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:31:45 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Altaria [ NEW ]
+7/26/2019 11:31:50 AM  |  [LEVEL]     Your Carbink is now level 96!
+7/26/2019 11:33:05 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:33:08 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 25 Mareep!
+7/26/2019 11:33:08 AM  |  [INFO]      Stats: Seen: 13 | Caught: 13 | Catch Rate: 100% | Levels Gained: 5 | Evolutions Gained: 0
+7/26/2019 11:33:08 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:33:08 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Mareep [ NEW ]
+7/26/2019 11:33:34 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:33:36 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Chinchou!
+7/26/2019 11:33:36 AM  |  [INFO]      Stats: Seen: 14 | Caught: 14 | Catch Rate: 100% | Levels Gained: 5 | Evolutions Gained: 0
+7/26/2019 11:33:36 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:33:36 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Chinchou [ NEW ]
+7/26/2019 11:34:06 AM  |  [LEVEL]     Your Carbink is now level 97!
+7/26/2019 11:36:13 AM  |  [LEVEL]     Your Carbink is now level 98!
+7/26/2019 11:36:49 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:36:53 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 25 Tangrowth!
+7/26/2019 11:36:53 AM  |  [INFO]      Stats: Seen: 15 | Caught: 15 | Catch Rate: 100% | Levels Gained: 7 | Evolutions Gained: 0
+7/26/2019 11:36:53 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:36:53 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Tangrowth [ NEW ]
+7/26/2019 11:38:30 AM  |  [LEVEL]     Your Carbink is now level 99!
+7/26/2019 11:39:52 AM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 11:39:55 AM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 29 Trubbish!
+7/26/2019 11:39:55 AM  |  [INFO]      Stats: Seen: 16 | Caught: 16 | Catch Rate: 100% | Levels Gained: 8 | Evolutions Gained: 0
+7/26/2019 11:39:55 AM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 11:39:55 AM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Trubbish [ NEW ]
+7/26/2019 11:40:52 AM  |  [LEVEL]     Your Carbink is now level 100!
+7/26/2019 11:40:53 AM  |  [LEVEL]     Your Pokémon has reached max level. Switching selected Pokémon...
+7/26/2019 11:40:56 AM  |  [INFO]      Bot Paused  | Press F12 to resume...
+7/26/2019 11:41:01 AM  |  [INFO]      Bot Resumed | Press F12 to pause...

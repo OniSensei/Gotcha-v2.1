@@ -27,22 +27,27 @@ Module Gotcha
     Dim evo As Integer = 0
     Dim catchCount As Integer = 0
     Dim seenCount As Integer = 0
+    Dim shinyCount As Integer = 0
     Dim lPKMN As Integer = 0
     Dim mPKMN As Integer = 0
     Dim ubPKMN As Integer = 0
     Dim ePKMN As Integer = 0
     Dim topcount As Integer = 0
-    Dim rPokemon As String = ""
-    Dim topPokemon As String = ""
+    Dim rPokemon As String
+    Dim topPokemon As String 
+    Dim onlinestatus As Boolean
+    Dim encounter As Boolean
 
     ' Load settings.ini
-    Dim iniSettings As New IniConfigSource("settings.ini")
+    Dim iniSettings As New IniConfigSource(Application.StartupPath & "/config/settings.ini")
     Dim token As String = iniSettings.Configs("Basic").Get("BotToken")
     Dim channel As String = iniSettings.Configs("Basic").Get("Channel")
     Dim pokePrefix As String = iniSettings.Configs("Basic").Get("Prefix")
     Dim version As String = iniSettings.Configs("Basic").Get("Version")
+    Dim autoUpdate As Boolean = iniSettings.Configs("Basic").Get("AutoUpdate")
     Dim spamInterval As Integer = iniSettings.Configs("Spam").Get("SpamInterval")
     Dim autoSpam As Boolean = iniSettings.Configs("Spam").Get("AutoSpam")
+    Dim levelGrind As Boolean = iniSettings.Configs("Spam").Get("AutoLevel")
     Dim autoBal As Boolean = iniSettings.Configs("Catch").Get("AutoBal")
     Dim catchDelay As Integer = iniSettings.Configs("Catch").Get("CatchDelay")
     Dim pokeWhite As String = iniSettings.Configs("Catch").Get("PokeWhitelist")
@@ -50,6 +55,7 @@ Module Gotcha
     Dim mythicToggle As Boolean = iniSettings.Configs("Notifications").Get("Mythical")
     Dim ultraToggle As Boolean = iniSettings.Configs("Notifications").Get("UltraBeast")
     Dim eventToggle As Boolean = iniSettings.Configs("Notifications").Get("EventPkmn")
+    Dim shinyToggle As Boolean = iniSettings.Configs("Notifications").Get("Shiny")
     Dim whitelist As String() = pokeWhite.Split(New Char() {","c})
     Dim whitecount As Integer = whitelist.Count
 
@@ -89,10 +95,40 @@ Module Gotcha
         Colorize("")
         Colorize("____________________________________________________________")
         Colorize("              [ Loading Gotcha v" & version & " ]                   ")
+        Colorize("                                                            ")
         ' Set thread
         Threading.Thread.CurrentThread.SetApartmentState(Threading.ApartmentState.STA)
+
+        ' Check for update
+        Dim verURL As String = "https://raw.githubusercontent.com/OniSensei/Gotcha-v2.1/master/version.txt"
+        Dim client As WebClient = New WebClient
+        Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+        Dim iVersion As String = reader.ReadToEnd
+
+        If iVersion.Contains(version) = False Then ' Update
+            Process.Start("Gotcha Updater.exe")
+            End
+        End If
+
+        reader.Close()
+
         ' Wait for login using our token
-        Await _client.LoginAsync(TokenType.Bot, token)
+        If token = "" Then
+            Colorize("[LOAD]      Enter Token: ")
+            iniSettings.Configs("Basic").Set("BotToken", Console.ReadLine())
+            token = iniSettings.Configs("Basic").Get("BotToken")
+            Colorize("[INFO]      Settings updated | Token = " & token)
+            Colorize("[LOAD]      Enter Channel Name: ")
+            iniSettings.Configs("Basic").Set("Channel", Console.ReadLine())
+            channel = iniSettings.Configs("Basic").Get("Channel")
+            Colorize("[INFO]      Settings updated | Channel = " & channel)
+            iniSettings.Save()
+        End If
+        Try
+            Await _client.LoginAsync(TokenType.Bot, token)
+        Catch ex As Exception
+            Console.WriteLine("Incorrect token | Check settings.ini")
+        End Try
         ' Wait for the client to start
         Await _client.StartAsync
         Await Task.Delay(-1)
@@ -105,45 +141,61 @@ Module Gotcha
             ' This is mostly just visual crap cause we loaded the settings up above
             Colorize("____________________________________________________________")
             Colorize("                    [ SETTINGS.INI ]                        ")
+            Colorize("                                                            ")
             Colorize("[LOAD]      Channel: " & channel)
             Colorize("[LOAD]      Token: " & token)
             Colorize("[LOAD]      Prefix: " & pokePrefix)
-            If autoBal = True Then
-                Colorize("[LOAD]      AutoBal:                             Enabled")
+            Colorize("[LOAD]      Catch Delay: " & catchDelay)
+            Colorize("[LOAD]      Spam Interval: " & spamInterval)
+            Colorize("[LOAD]      " & whitecount & " Pokémon in Whitelist...")
+            If autoUpdate = True Then
+                Colorize("[LOAD]      AutoUpdate:                              Enabled")
             Else
-                Colorize("[LOAD]      AutoBal:                            Disabled")
+                Colorize("[LOAD]      AutoUpdate:                             Disabled")
+            End If
+            If autoBal = True Then
+                Colorize("[LOAD]      AutoBal:                                 Enabled")
+            Else
+                Colorize("[LOAD]      AutoBal:                                Disabled")
             End If
             If autoSpam = True Then
-                Colorize("[LOAD]      AutoSpam:                            Enabled")
+                Colorize("[LOAD]      AutoSpam:                                Enabled")
 
                 ' We do actually start the auto spammer tho, but thats becuase we had to wait for this
                 MainTimer.Interval = spamInterval
                 MainTimer.Start()
             Else
-                Colorize("[LOAD]      AutoSpam:                           Disabled")
+                Colorize("[LOAD]      AutoSpam:                               Disabled")
             End If
-            Colorize("[LOAD]      Catch Delay: " & catchDelay)
-            Colorize("[LOAD]      Spam Interval: " & spamInterval)
-            Colorize("[LOAD]      " & whitecount & " Pokémon in Whitelist...")
-            If legendToggle = True Then
-                Colorize("[LOAD]      Legendary Notifications:             Enabled")
+            If levelGrind = True Then
+                Colorize("[LOAD]      AutoLevel:                               Enabled")
             Else
-                Colorize("[LOAD]      Legendary Notifications:            Disabled")
+                Colorize("[LOAD]      AutoLevel:                              Disabled")
+            End If
+            If legendToggle = True Then
+                Colorize("[LOAD]      Legendary Notifications:                 Enabled")
+            Else
+                Colorize("[LOAD]      Legendary Notifications:                Disabled")
             End If
             If mythicToggle = True Then
-                Colorize("[LOAD]      Mythic Notifications:                Enabled")
+                Colorize("[LOAD]      Mythic Notifications:                    Enabled")
             Else
-                Colorize("[LOAD]      Mythic Notifications:               Disabled")
+                Colorize("[LOAD]      Mythic Notifications:                   Disabled")
             End If
             If ultraToggle = True Then
-                Colorize("[LOAD]      UltraBeast Notifications:            Enabled")
+                Colorize("[LOAD]      UltraBeast Notifications:                Enabled")
             Else
-                Colorize("[LOAD]      UltraBeast Notifications:           Disabled")
+                Colorize("[LOAD]      UltraBeast Notifications:               Disabled")
             End If
             If eventToggle = True Then
-                Colorize("[LOAD]      Event PKMN Notifications:            Enabled")
+                Colorize("[LOAD]      Event PKMN Notifications:                Enabled")
             Else
-                Colorize("[LOAD]      Event PKMN Notifications:           Disabled")
+                Colorize("[LOAD]      Event PKMN Notifications:               Disabled")
+            End If
+            If shinyToggle = True Then
+                Colorize("[LOAD]      Shiny Notifications:                     Enabled")
+            Else
+                Colorize("[LOAD]      Shiny Notifications:                    Disabled")
             End If
             Colorize("____________________________________________________________")
             Colorize("                                                            ")
@@ -197,6 +249,7 @@ Module Gotcha
                         End If
                     Next
                 End If
+
                 If eventToggle = True Then
                     For Each value As String In pkmnEvents
                         If message.Content.Contains(value) Then
@@ -205,6 +258,7 @@ Module Gotcha
                         End If
                     Next
                 End If
+
                 ' End notifications
 
                 ' Pokemon caught, update console & the catch count & recent catches
@@ -228,7 +282,7 @@ Module Gotcha
 
                     ' Update console with stats
                     Colorize("[INFO]      Stats: Seen: " & seenCount & " | Caught: " & catchCount & " | Catch Rate: " & ratio & "% | Levels Gained: " & level & " | Evolutions Gained: " & evo)
-                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN)
+                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN& & " | Shiny: " & shinyCount)
                     Colorize("[INFO]      [ NEW ] Most caught pokemon: " & topcount & " - " & topPokemon & " [ NEW ]")
                 Else
                     ' Math for catch percentage
@@ -236,14 +290,14 @@ Module Gotcha
 
                     ' Update console with stats
                     Colorize("[INFO]      Stats: Seen: " & seenCount & " | Caught: " & catchCount & " | Catch Rate: " & ratio & "% | Levels Gained: " & level & " | Evolutions Gained: " & evo)
-                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN)
+                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN& & " | Shiny: " & shinyCount)
                     Colorize("[INFO]      Most caught pokemon: " & topcount & " - " & topPokemon)
                 End If
 
                 ' Checks if the message also contains pokedex reward tags like added to pokedex, or 10th, or 100th pokemon caught
                 ' Also only auto balance command if the toggle is on in settings
                 If message.Content.Contains("Added to Pokédex") And autoBal = True Then
-                    Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
+                    Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
@@ -251,7 +305,7 @@ Module Gotcha
                     ' Update console
                     Colorize("[INFO]      New Pokédex reward available. Claiming the balance.")
                 ElseIf message.Content.Contains("10th") And autoBal = True Then
-                    Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
+                    Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
@@ -259,20 +313,20 @@ Module Gotcha
                     ' Update console
                     Colorize("[INFO]      New Pokédex reward available. Claiming the balance.")
                 ElseIf message.Content.Contains("100th") And autoBal = True Then
-                    Threading.Thread.Sleep(catchDelay) ' otherwise it can tell us we are sending commands to fast
+                    Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
                     FindDiscordWindow(channel) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
                     ' Update console
                     Colorize("[INFO]      New Pokédex reward available. Claiming the balance.")
+                ElseIf message.Content.Contains("Shiny") Then
+                    If shinyToggle = True Then ' if we want shiny notifications then continue
+                        Colorize("[INFO]      Shiny notification sent...") ' update console
+                        shinyCount += 1
+                        Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString) ' pm user its shiny
+                    End If
                 End If
-
-                ' Continue to spam if autospammer is set to true
-                If autoSpam = True Then
-                    MainTimer.Start()
-                End If
-
             End If
 
             ' Wrong pokemon
@@ -285,6 +339,9 @@ Module Gotcha
             If message.Embeds(0).Title.Contains("appeared!") Then
                 ' Stop the timer
                 MainTimer.Stop()
+
+                ' Update variable
+                encounter = True
 
                 ' Update console and seen count
                 Colorize("[ENCOUNTER] A wild Pokémon has appeared!")
@@ -322,6 +379,14 @@ Module Gotcha
                                         Threading.Thread.Sleep(catchDelay)
                                         SendKeys.SendWait(pokePrefix & "catch " & pokemonName.ToLower) ' Actual catch
                                         SendKeys.SendWait("{Enter}")
+                                        encounter = False ' end encounter
+                                    Else
+                                        ' Skip encounter and restart
+                                        encounter = False
+                                        If autoSpam = True Then
+                                            MainTimer.Start()
+                                        End If
+                                        Colorize("[ENCOUNTER] Pokémon not whitelisted. Skipping...")
                                     End If
                                     Exit For
                                 Catch ex As Exception
@@ -339,6 +404,22 @@ Module Gotcha
                 ' Update console and level count
                 Colorize("[LEVEL]     " & message.Embeds(0).Description)
                 level += 1
+
+                ' Pokemon is max level
+                If message.Embeds(0).Description.Contains("100") Then
+                    ' Pokemon is max level, lets switch it
+                    If MainTimer.Enabled = True Then
+                        MainTimer.Stop() ' Pause spammer 
+                    End If
+                    FindDiscordWindow(channel) ' find discord
+                    Threading.Thread.Sleep(spamInterval) ' Delay
+                    SendKeys.SendWait(pokePrefix & "select latest") ' Switch pokemon to latest caught
+                    SendKeys.SendWait("{Enter}") ' Send command
+                    If autoSpam = True Then
+                        MainTimer.Start() ' Restart spammer
+                    End If
+                    Colorize("[LEVEL]     Your Pokémon has reached max level. Switching selected Pokémon...")
+                End If
             End If
 
             ' Evolution
@@ -478,6 +559,7 @@ Module Gotcha
                     iniSettings.Save() ' Save settings.ini
                 End If
             End If
+
         End If
     End Function
 
@@ -510,14 +592,31 @@ Module Gotcha
         SetForegroundWindow(nWnd)
     End Sub
 
+    ' Function to check pokecord status
+    Public Sub checkPokecord()
+        If _client.GetUser("365975655608745985").Status = UserStatus.Online Then
+            onlinestatus = True ' Set status
+            If MainTimer.Enabled = False And autoSpam = True And encounter = False And botRunning = True Then ' Restart spammer if it was previously off
+                MainTimer.Start()
+            End If
+        Else
+            onlinestatus = False ' Set status
+            If MainTimer.Enabled = True Then ' Turn off spammer if its still on
+                MainTimer.Stop()
+                Colorize("[ERROR]     Pokécord Offline...")
+                encounter = False
+            End If
+        End If
+    End Sub
+
     ' Spam chat
     Public Sub SpamChats()
         ' Find discord
         FindDiscordWindow(channel)
 
         ' Check for spamchat file
-        If File.Exists("spamchat.txt") Then
-            Dim ioFile As New StreamReader("spamchat.txt")
+        If File.Exists(Application.StartupPath & "/config/spamchat.txt") Then
+            Dim ioFile As New StreamReader(Application.StartupPath & "/config/spamchat.txt")
             Dim lines As New List(Of String)
             Dim rnd As New Random()
             Dim line As Integer
@@ -533,7 +632,8 @@ Module Gotcha
             SendKeys.SendWait(lines(line).Trim())
             SendKeys.SendWait("{Enter}")
         Else
-            Colorize("[ERROR]     Cannot locate spamchat.txt...") ' error
+            Colorize("[ERROR]     Cannot locate /config/spamchat.txt...") ' error
+            MainTimer.Stop()
         End If
     End Sub
 
@@ -557,6 +657,9 @@ Module Gotcha
                 Colorize("[INFO]      Bot Resumed | Press F12 to pause...") ' update console
             End If
         End If
+
+        ' Check for pokecord online status
+        checkPokecord()
     End Sub
 
     ' Colorize function for console font color

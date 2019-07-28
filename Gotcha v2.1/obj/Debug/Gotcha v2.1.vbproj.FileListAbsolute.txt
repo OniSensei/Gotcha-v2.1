@@ -49,3 +49,7 @@ C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.vbproj.Cop
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.exe
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.xml
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.pdb
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.exe.manifest
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.application
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.exe.manifest
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.application

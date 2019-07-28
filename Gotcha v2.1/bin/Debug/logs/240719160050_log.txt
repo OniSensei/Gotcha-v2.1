@@ -1,0 +1,398 @@
+7/24/2019 4:00:51 PM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/24/2019 4:00:52 PM  |  [INFO]      Connecting
+7/24/2019 4:00:54 PM  |  [INFO]      Connected
+7/24/2019 4:00:55 PM  |  [LOAD]      Channel: general
+7/24/2019 4:00:55 PM  |  [LOAD]      Token: NTk5ODE5NjQ2NTI2NDIzMDQw.XTaJJA.YoCuueUH0c0LpaXkJo22Aj40IzA
+7/24/2019 4:00:55 PM  |  [LOAD]      AutoBal:                             Enabled
+7/24/2019 4:00:55 PM  |  [LOAD]      AutoSpam:                           Disabled
+7/24/2019 4:00:55 PM  |  [LOAD]      Catch Delay: 750
+7/24/2019 4:00:55 PM  |  [LOAD]      Spam Interval: 1500
+7/24/2019 4:00:55 PM  |  [LOAD]      828 Pokémon in Whitelist...
+7/24/2019 4:00:55 PM  |  [LOAD]      Legendary Notifications:             Enabled
+7/24/2019 4:00:55 PM  |  [LOAD]      Mythic Notifications:                Enabled
+7/24/2019 4:00:55 PM  |  [LOAD]      UltraBeast Notifications:            Enabled
+7/24/2019 4:00:55 PM  |  [LOAD]      Event PKMN Notifications:            Enabled
+7/24/2019 4:00:55 PM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/24/2019 4:01:13 PM  |  [INFO]      Settings updated | AutoSpam = True
+7/24/2019 4:01:54 PM  |  [INFO]      Settings Reloaded...
+7/24/2019 4:01:57 PM  |  [INFO]      Bot Paused  | Press F12 to resume...
+7/24/2019 4:01:59 PM  |  [INFO]      Bot Resumed | Press F12 to pause...
+7/24/2019 4:02:12 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:02:20 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Sneasel!
+7/24/2019 4:02:20 PM  |  [INFO]      Stats: Seen: 1 | Caught: 1 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:02:20 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:02:20 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Sneasel [ NEW ]
+7/24/2019 4:02:28 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:02:30 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Crobat!
+7/24/2019 4:02:30 PM  |  [INFO]      Stats: Seen: 2 | Caught: 2 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:02:30 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:02:30 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Crobat [ NEW ]
+7/24/2019 4:03:00 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:03:02 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 31 Bisharp! Added to Pokédex.
+7/24/2019 4:03:02 PM  |  [INFO]      Stats: Seen: 3 | Caught: 3 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:03:02 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:03:02 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Bisharp [ NEW ]
+7/24/2019 4:03:03 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:04:25 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:04:27 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 16 Forretress!
+7/24/2019 4:04:27 PM  |  [INFO]      Stats: Seen: 4 | Caught: 4 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:04:27 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:04:27 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Forretress [ NEW ]
+7/24/2019 4:05:07 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:05:10 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Pikipek!
+7/24/2019 4:05:10 PM  |  [INFO]      Stats: Seen: 5 | Caught: 5 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:05:10 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:05:10 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pikipek [ NEW ]
+7/24/2019 4:05:31 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:05:33 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 35 Braixen!
+7/24/2019 4:05:33 PM  |  [INFO]      Stats: Seen: 6 | Caught: 6 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:05:33 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:05:33 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Braixen [ NEW ]
+7/24/2019 4:06:41 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:06:44 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 29 Skorupi!
+7/24/2019 4:06:44 PM  |  [INFO]      Stats: Seen: 7 | Caught: 7 | Catch Rate: 100% | Levels Gained: 0 | Evolutions Gained: 0
+7/24/2019 4:06:44 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:06:44 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Skorupi [ NEW ]
+7/24/2019 4:07:47 PM  |  [LEVEL]     Your Bulbasaur is now level 15!
+7/24/2019 4:08:15 PM  |  [LEVEL]     Your Bulbasaur is now level 16!
+7/24/2019 4:08:15 PM  |  [EVOLVE]    What? Bulbasaur is evolving!
+7/24/2019 4:08:15 PM  |  [EVOLVE]    Your Bulbasaur has evolved into a Ivysaur
+7/24/2019 4:08:33 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:08:36 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 9 Pachirisu!
+7/24/2019 4:08:36 PM  |  [INFO]      Stats: Seen: 8 | Caught: 8 | Catch Rate: 100% | Levels Gained: 2 | Evolutions Gained: 1
+7/24/2019 4:08:36 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:08:36 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pachirisu [ NEW ]
+7/24/2019 4:08:47 PM  |  [LEVEL]     Your Ivysaur is now level 17!
+7/24/2019 4:09:18 PM  |  [LEVEL]     Your Ivysaur is now level 18!
+7/24/2019 4:09:51 PM  |  [LEVEL]     Your Ivysaur is now level 19!
+7/24/2019 4:09:59 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:10:02 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 16 Scyther!
+7/24/2019 4:10:02 PM  |  [INFO]      Stats: Seen: 9 | Caught: 9 | Catch Rate: 100% | Levels Gained: 5 | Evolutions Gained: 1
+7/24/2019 4:10:02 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:10:02 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Scyther [ NEW ]
+7/24/2019 4:10:26 PM  |  [LEVEL]     Your Ivysaur is now level 20!
+7/24/2019 4:10:32 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:10:36 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 15 Woobat!
+7/24/2019 4:10:36 PM  |  [INFO]      Stats: Seen: 10 | Caught: 10 | Catch Rate: 100% | Levels Gained: 6 | Evolutions Gained: 1
+7/24/2019 4:10:36 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:10:36 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Woobat [ NEW ]
+7/24/2019 4:11:08 PM  |  [LEVEL]     Your Ivysaur is now level 21!
+7/24/2019 4:11:13 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:11:16 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Feebas!
+7/24/2019 4:11:16 PM  |  [INFO]      Stats: Seen: 11 | Caught: 11 | Catch Rate: 100% | Levels Gained: 7 | Evolutions Gained: 1
+7/24/2019 4:11:16 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:11:16 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Feebas [ NEW ]
+7/24/2019 4:11:37 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:11:40 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Pineco!
+7/24/2019 4:11:40 PM  |  [INFO]      Stats: Seen: 12 | Caught: 12 | Catch Rate: 100% | Levels Gained: 7 | Evolutions Gained: 1
+7/24/2019 4:11:40 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:11:40 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pineco [ NEW ]
+7/24/2019 4:11:48 PM  |  [LEVEL]     Your Ivysaur is now level 22!
+7/24/2019 4:11:56 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:11:58 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Flabébé! This is your 10th Flabébé!
+7/24/2019 4:11:58 PM  |  [INFO]      Stats: Seen: 13 | Caught: 13 | Catch Rate: 100% | Levels Gained: 8 | Evolutions Gained: 1
+7/24/2019 4:11:58 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:11:58 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Flabebe [ NEW ]
+7/24/2019 4:11:59 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:12:28 PM  |  [LEVEL]     Your Ivysaur is now level 23!
+7/24/2019 4:13:08 PM  |  [LEVEL]     Your Ivysaur is now level 24!
+7/24/2019 4:13:13 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:13:16 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 7 Patrat!
+7/24/2019 4:13:16 PM  |  [INFO]      Stats: Seen: 14 | Caught: 14 | Catch Rate: 100% | Levels Gained: 10 | Evolutions Gained: 1
+7/24/2019 4:13:16 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:13:16 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Patrat [ NEW ]
+7/24/2019 4:13:54 PM  |  [LEVEL]     Your Ivysaur is now level 25!
+7/24/2019 4:13:54 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:13:57 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 27 Sentret!
+7/24/2019 4:13:57 PM  |  [INFO]      Stats: Seen: 15 | Caught: 15 | Catch Rate: 100% | Levels Gained: 11 | Evolutions Gained: 1
+7/24/2019 4:13:57 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:13:57 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Sentret [ NEW ]
+7/24/2019 4:14:28 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:14:30 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 21 Duosion!
+7/24/2019 4:14:30 PM  |  [INFO]      Stats: Seen: 16 | Caught: 16 | Catch Rate: 100% | Levels Gained: 11 | Evolutions Gained: 1
+7/24/2019 4:14:30 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:14:30 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Duosion [ NEW ]
+7/24/2019 4:14:35 PM  |  [LEVEL]     Your Ivysaur is now level 26!
+7/24/2019 4:15:21 PM  |  [LEVEL]     Your Ivysaur is now level 27!
+7/24/2019 4:16:00 PM  |  [LEVEL]     Your Ivysaur is now level 28!
+7/24/2019 4:16:50 PM  |  [LEVEL]     Your Ivysaur is now level 29!
+7/24/2019 4:16:50 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:16:53 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 41 Lombre!
+7/24/2019 4:16:53 PM  |  [INFO]      Stats: Seen: 17 | Caught: 17 | Catch Rate: 100% | Levels Gained: 15 | Evolutions Gained: 1
+7/24/2019 4:16:53 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:16:53 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Lombre [ NEW ]
+7/24/2019 4:17:34 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:17:36 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 38 Barboach!
+7/24/2019 4:17:36 PM  |  [INFO]      Stats: Seen: 18 | Caught: 18 | Catch Rate: 100% | Levels Gained: 15 | Evolutions Gained: 1
+7/24/2019 4:17:36 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:17:36 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Barboach [ NEW ]
+7/24/2019 4:17:38 PM  |  [LEVEL]     Your Ivysaur is now level 30!
+7/24/2019 4:18:20 PM  |  [LEVEL]     Your Ivysaur is now level 31!
+7/24/2019 4:18:35 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:18:37 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Hariyama!
+7/24/2019 4:18:37 PM  |  [INFO]      Stats: Seen: 19 | Caught: 19 | Catch Rate: 100% | Levels Gained: 17 | Evolutions Gained: 1
+7/24/2019 4:18:37 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:18:37 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Hariyama [ NEW ]
+7/24/2019 4:19:08 PM  |  [LEVEL]     Your Ivysaur is now level 32!
+7/24/2019 4:19:08 PM  |  [EVOLVE]    What? Ivysaur is evolving!
+7/24/2019 4:19:08 PM  |  [EVOLVE]    Your Ivysaur has evolved into a Venusaur
+7/24/2019 4:19:59 PM  |  [LEVEL]     Your Venusaur is now level 33!
+7/24/2019 4:20:52 PM  |  [LEVEL]     Your Venusaur is now level 34!
+7/24/2019 4:21:38 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:21:40 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 9 Blissey!
+7/24/2019 4:21:40 PM  |  [INFO]      Stats: Seen: 20 | Caught: 20 | Catch Rate: 100% | Levels Gained: 20 | Evolutions Gained: 2
+7/24/2019 4:21:40 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:21:40 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Blissey [ NEW ]
+7/24/2019 4:21:42 PM  |  [LEVEL]     Your Venusaur is now level 35!
+7/24/2019 4:22:07 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:22:09 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Raticate!
+7/24/2019 4:22:09 PM  |  [INFO]      Stats: Seen: 21 | Caught: 21 | Catch Rate: 100% | Levels Gained: 21 | Evolutions Gained: 2
+7/24/2019 4:22:10 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:22:10 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Raticate [ NEW ]
+7/24/2019 4:22:25 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:22:27 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 25 Gastrodon!
+7/24/2019 4:22:27 PM  |  [INFO]      Stats: Seen: 22 | Caught: 22 | Catch Rate: 100% | Levels Gained: 21 | Evolutions Gained: 2
+7/24/2019 4:22:27 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:22:27 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Gastrodon [ NEW ]
+7/24/2019 4:22:34 PM  |  [LEVEL]     Your Venusaur is now level 36!
+7/24/2019 4:23:28 PM  |  [LEVEL]     Your Venusaur is now level 37!
+7/24/2019 4:23:40 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:23:43 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 5 Ponyta!
+7/24/2019 4:23:43 PM  |  [INFO]      Stats: Seen: 23 | Caught: 23 | Catch Rate: 100% | Levels Gained: 23 | Evolutions Gained: 2
+7/24/2019 4:23:43 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:23:43 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Ponyta [ NEW ]
+7/24/2019 4:23:57 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:23:59 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 20 Glalie!
+7/24/2019 4:23:59 PM  |  [INFO]      Stats: Seen: 24 | Caught: 24 | Catch Rate: 100% | Levels Gained: 23 | Evolutions Gained: 2
+7/24/2019 4:23:59 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:23:59 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Glalie [ NEW ]
+7/24/2019 4:24:34 PM  |  [LEVEL]     Your Venusaur is now level 38!
+7/24/2019 4:25:15 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:25:18 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Volbeat!
+7/24/2019 4:25:18 PM  |  [INFO]      Stats: Seen: 25 | Caught: 25 | Catch Rate: 100% | Levels Gained: 24 | Evolutions Gained: 2
+7/24/2019 4:25:18 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:25:18 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Volbeat [ NEW ]
+7/24/2019 4:25:31 PM  |  [LEVEL]     Your Venusaur is now level 39!
+7/24/2019 4:26:34 PM  |  [LEVEL]     Your Venusaur is now level 40!
+7/24/2019 4:27:28 PM  |  [LEVEL]     Your Venusaur is now level 41!
+7/24/2019 4:28:36 PM  |  [LEVEL]     Your Venusaur is now level 42!
+7/24/2019 4:28:43 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:28:47 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 42 Stunky!
+7/24/2019 4:28:47 PM  |  [INFO]      Stats: Seen: 26 | Caught: 26 | Catch Rate: 100% | Levels Gained: 28 | Evolutions Gained: 2
+7/24/2019 4:28:47 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:28:47 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Stunky [ NEW ]
+7/24/2019 4:29:41 PM  |  [LEVEL]     Your Venusaur is now level 43!
+7/24/2019 4:29:44 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:29:48 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 37 Victreebel!
+7/24/2019 4:29:48 PM  |  [INFO]      Stats: Seen: 27 | Caught: 27 | Catch Rate: 100% | Levels Gained: 29 | Evolutions Gained: 2
+7/24/2019 4:29:48 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:29:48 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Victreebel [ NEW ]
+7/24/2019 4:30:33 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:30:35 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Cubone!
+7/24/2019 4:30:35 PM  |  [INFO]      Stats: Seen: 28 | Caught: 28 | Catch Rate: 100% | Levels Gained: 29 | Evolutions Gained: 2
+7/24/2019 4:30:35 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:30:35 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Cubone [ NEW ]
+7/24/2019 4:30:40 PM  |  [LEVEL]     Your Venusaur is now level 44!
+7/24/2019 4:31:48 PM  |  [LEVEL]     Your Venusaur is now level 45!
+7/24/2019 4:32:56 PM  |  [LEVEL]     Your Venusaur is now level 46!
+7/24/2019 4:33:32 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:33:34 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 4 Hoothoot!
+7/24/2019 4:33:34 PM  |  [INFO]      Stats: Seen: 29 | Caught: 29 | Catch Rate: 100% | Levels Gained: 32 | Evolutions Gained: 2
+7/24/2019 4:33:34 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:33:34 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Hoothoot [ NEW ]
+7/24/2019 4:34:02 PM  |  [LEVEL]     Your Venusaur is now level 47!
+7/24/2019 4:34:38 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:34:40 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 36 Clauncher! This is your 10th Clauncher!
+7/24/2019 4:34:40 PM  |  [INFO]      Stats: Seen: 30 | Caught: 30 | Catch Rate: 100% | Levels Gained: 33 | Evolutions Gained: 2
+7/24/2019 4:34:40 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:34:40 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Clauncher [ NEW ]
+7/24/2019 4:34:41 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:35:16 PM  |  [LEVEL]     Your Venusaur is now level 48!
+7/24/2019 4:36:26 PM  |  [LEVEL]     Your Venusaur is now level 49!
+7/24/2019 4:36:57 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:36:59 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 33 Budew! This is your 10th Budew!
+7/24/2019 4:36:59 PM  |  [INFO]      Stats: Seen: 31 | Caught: 31 | Catch Rate: 100% | Levels Gained: 35 | Evolutions Gained: 2
+7/24/2019 4:36:59 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:36:59 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Budew [ NEW ]
+7/24/2019 4:37:00 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:37:36 PM  |  [LEVEL]     Your Venusaur is now level 50!
+7/24/2019 4:38:45 PM  |  [LEVEL]     Your Venusaur is now level 51!
+7/24/2019 4:39:12 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:39:15 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 21 Roselia!
+7/24/2019 4:39:15 PM  |  [INFO]      Stats: Seen: 32 | Caught: 32 | Catch Rate: 100% | Levels Gained: 37 | Evolutions Gained: 2
+7/24/2019 4:39:15 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:39:15 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Roselia [ NEW ]
+7/24/2019 4:39:51 PM  |  [LEVEL]     Your Venusaur is now level 52!
+7/24/2019 4:40:22 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:40:25 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 35 Wishiwashi!
+7/24/2019 4:40:25 PM  |  [INFO]      Stats: Seen: 33 | Caught: 33 | Catch Rate: 100% | Levels Gained: 38 | Evolutions Gained: 2
+7/24/2019 4:40:25 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:40:25 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Wishiwashi [ NEW ]
+7/24/2019 4:41:05 PM  |  [LEVEL]     Your Venusaur is now level 53!
+7/24/2019 4:42:26 PM  |  [LEVEL]     Your Venusaur is now level 54!
+7/24/2019 4:42:37 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:42:39 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 32 Lopunny!
+7/24/2019 4:42:39 PM  |  [INFO]      Stats: Seen: 34 | Caught: 34 | Catch Rate: 100% | Levels Gained: 40 | Evolutions Gained: 2
+7/24/2019 4:42:39 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:42:39 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Lopunny [ NEW ]
+7/24/2019 4:43:01 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:43:04 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 23 Tropius!
+7/24/2019 4:43:04 PM  |  [INFO]      Stats: Seen: 35 | Caught: 35 | Catch Rate: 100% | Levels Gained: 40 | Evolutions Gained: 2
+7/24/2019 4:43:04 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:43:04 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Tropius [ NEW ]
+7/24/2019 4:43:22 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:43:24 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 39 Lapras!
+7/24/2019 4:43:24 PM  |  [INFO]      Stats: Seen: 36 | Caught: 36 | Catch Rate: 100% | Levels Gained: 40 | Evolutions Gained: 2
+7/24/2019 4:43:24 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:43:24 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Lapras [ NEW ]
+7/24/2019 4:43:44 PM  |  [LEVEL]     Your Venusaur is now level 55!
+7/24/2019 4:44:02 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:44:09 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 38 Spheal!
+7/24/2019 4:44:09 PM  |  [INFO]      Stats: Seen: 37 | Caught: 37 | Catch Rate: 100% | Levels Gained: 41 | Evolutions Gained: 2
+7/24/2019 4:44:09 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:44:09 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Spheal [ NEW ]
+7/24/2019 4:44:49 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:44:52 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Volbeat!
+7/24/2019 4:44:52 PM  |  [INFO]      Stats: Seen: 38 | Caught: 38 | Catch Rate: 100% | Levels Gained: 41 | Evolutions Gained: 2
+7/24/2019 4:44:52 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:44:52 PM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Volbeat [ NEW ]
+7/24/2019 4:45:06 PM  |  [LEVEL]     Your Venusaur is now level 56!
+7/24/2019 4:45:56 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:45:58 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 32 Kadabra!
+7/24/2019 4:45:58 PM  |  [INFO]      Stats: Seen: 39 | Caught: 39 | Catch Rate: 100% | Levels Gained: 42 | Evolutions Gained: 2
+7/24/2019 4:45:58 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:45:58 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:46:29 PM  |  [LEVEL]     Your Venusaur is now level 57!
+7/24/2019 4:47:46 PM  |  [LEVEL]     Your Venusaur is now level 58!
+7/24/2019 4:48:04 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:48:07 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 28 Squirtle!
+7/24/2019 4:48:07 PM  |  [INFO]      Stats: Seen: 40 | Caught: 40 | Catch Rate: 100% | Levels Gained: 44 | Evolutions Gained: 2
+7/24/2019 4:48:07 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:48:07 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:48:32 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:48:34 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 37 Remoraid!
+7/24/2019 4:48:34 PM  |  [INFO]      Stats: Seen: 41 | Caught: 41 | Catch Rate: 100% | Levels Gained: 44 | Evolutions Gained: 2
+7/24/2019 4:48:34 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:48:34 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:49:12 PM  |  [LEVEL]     Your Venusaur is now level 59!
+7/24/2019 4:49:13 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:49:15 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 1 Gurdurr!
+7/24/2019 4:49:15 PM  |  [INFO]      Stats: Seen: 42 | Caught: 42 | Catch Rate: 100% | Levels Gained: 45 | Evolutions Gained: 2
+7/24/2019 4:49:15 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:49:15 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:50:16 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:50:19 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 2 Swinub! This is your 10th Swinub!
+7/24/2019 4:50:19 PM  |  [INFO]      Stats: Seen: 43 | Caught: 43 | Catch Rate: 100% | Levels Gained: 45 | Evolutions Gained: 2
+7/24/2019 4:50:19 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:50:19 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:50:20 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:50:39 PM  |  [LEVEL]     Your Venusaur is now level 60!
+7/24/2019 4:51:42 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:51:44 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 35 Caterpie!
+7/24/2019 4:51:44 PM  |  [INFO]      Stats: Seen: 44 | Caught: 44 | Catch Rate: 100% | Levels Gained: 46 | Evolutions Gained: 2
+7/24/2019 4:51:44 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:51:44 PM  |  [INFO]      Most caught pokemon: 2 - Volbeat
+7/24/2019 4:52:05 PM  |  [LEVEL]     Your Venusaur is now level 61!
+7/24/2019 4:53:04 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:53:07 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 31 Hariyama! This is your 10th Hariyama!
+7/24/2019 4:53:07 PM  |  [INFO]      Stats: Seen: 45 | Caught: 45 | Catch Rate: 100% | Levels Gained: 47 | Evolutions Gained: 2
+7/24/2019 4:53:07 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:53:07 PM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Hariyama [ NEW ]
+7/24/2019 4:53:07 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:53:26 PM  |  [LEVEL]     Your Venusaur is now level 62!
+7/24/2019 4:53:35 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:53:37 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Fomantis!
+7/24/2019 4:53:37 PM  |  [INFO]      Stats: Seen: 46 | Caught: 46 | Catch Rate: 100% | Levels Gained: 48 | Evolutions Gained: 2
+7/24/2019 4:53:37 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:53:37 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:54:11 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:54:14 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 9 Litten!
+7/24/2019 4:54:14 PM  |  [INFO]      Stats: Seen: 47 | Caught: 47 | Catch Rate: 100% | Levels Gained: 48 | Evolutions Gained: 2
+7/24/2019 4:54:14 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:54:14 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:54:41 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:54:43 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 10 Aggron!
+7/24/2019 4:54:43 PM  |  [INFO]      Stats: Seen: 48 | Caught: 48 | Catch Rate: 100% | Levels Gained: 48 | Evolutions Gained: 2
+7/24/2019 4:54:43 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:54:43 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:54:53 PM  |  [LEVEL]     Your Venusaur is now level 63!
+7/24/2019 4:56:18 PM  |  [LEVEL]     Your Venusaur is now level 64!
+7/24/2019 4:57:23 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:57:25 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Jellicent!
+7/24/2019 4:57:25 PM  |  [INFO]      Stats: Seen: 49 | Caught: 49 | Catch Rate: 100% | Levels Gained: 50 | Evolutions Gained: 2
+7/24/2019 4:57:25 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:57:25 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:57:53 PM  |  [LEVEL]     Your Venusaur is now level 65!
+7/24/2019 4:58:05 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:58:08 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 41 Staryu!
+7/24/2019 4:58:08 PM  |  [INFO]      Stats: Seen: 50 | Caught: 50 | Catch Rate: 100% | Levels Gained: 51 | Evolutions Gained: 2
+7/24/2019 4:58:08 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:58:08 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:58:27 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:58:29 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 16 Cutiefly! This is your 10th Cutiefly!
+7/24/2019 4:58:29 PM  |  [INFO]      Stats: Seen: 51 | Caught: 51 | Catch Rate: 100% | Levels Gained: 51 | Evolutions Gained: 2
+7/24/2019 4:58:29 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:58:29 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 4:58:29 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 4:59:29 PM  |  [LEVEL]     Your Venusaur is now level 66!
+7/24/2019 4:59:36 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 4:59:38 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 14 Hoppip!
+7/24/2019 4:59:38 PM  |  [INFO]      Stats: Seen: 52 | Caught: 52 | Catch Rate: 100% | Levels Gained: 52 | Evolutions Gained: 2
+7/24/2019 4:59:38 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 4:59:38 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 5:00:06 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:00:09 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 20 Mightyena!
+7/24/2019 5:00:09 PM  |  [INFO]      Stats: Seen: 53 | Caught: 53 | Catch Rate: 100% | Levels Gained: 52 | Evolutions Gained: 2
+7/24/2019 5:00:09 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:00:09 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 5:01:00 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:01:03 PM  |  [LEVEL]     Your Venusaur is now level 67!
+7/24/2019 5:01:04 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 15 Spritzee! This is your 10th Spritzee!
+7/24/2019 5:01:04 PM  |  [INFO]      Stats: Seen: 54 | Caught: 54 | Catch Rate: 100% | Levels Gained: 53 | Evolutions Gained: 2
+7/24/2019 5:01:04 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:01:04 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 5:01:04 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/24/2019 5:01:35 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:01:38 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 33 Silcoon!
+7/24/2019 5:01:38 PM  |  [INFO]      Stats: Seen: 55 | Caught: 55 | Catch Rate: 100% | Levels Gained: 53 | Evolutions Gained: 2
+7/24/2019 5:01:38 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:01:38 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 5:02:12 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:02:15 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 24 Shinx!
+7/24/2019 5:02:15 PM  |  [INFO]      Stats: Seen: 56 | Caught: 56 | Catch Rate: 100% | Levels Gained: 53 | Evolutions Gained: 2
+7/24/2019 5:02:15 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:02:15 PM  |  [INFO]      Most caught pokemon: 2 - Hariyama
+7/24/2019 5:02:44 PM  |  [LEVEL]     Your Venusaur is now level 68!
+7/24/2019 5:02:44 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:02:47 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 1 Sentret!
+7/24/2019 5:02:47 PM  |  [INFO]      Stats: Seen: 57 | Caught: 57 | Catch Rate: 100% | Levels Gained: 54 | Evolutions Gained: 2
+7/24/2019 5:02:47 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:02:47 PM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Sentret [ NEW ]
+7/24/2019 5:03:04 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:03:08 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 6 Yamask!
+7/24/2019 5:03:08 PM  |  [INFO]      Stats: Seen: 58 | Caught: 58 | Catch Rate: 100% | Levels Gained: 54 | Evolutions Gained: 2
+7/24/2019 5:03:08 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:03:08 PM  |  [INFO]      Most caught pokemon: 2 - Sentret
+7/24/2019 5:04:24 PM  |  [LEVEL]     Your Venusaur is now level 69!
+7/24/2019 5:04:44 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:04:47 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 42 Tentacool!
+7/24/2019 5:04:47 PM  |  [INFO]      Stats: Seen: 59 | Caught: 59 | Catch Rate: 100% | Levels Gained: 55 | Evolutions Gained: 2
+7/24/2019 5:04:47 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:04:47 PM  |  [INFO]      Most caught pokemon: 2 - Sentret
+7/24/2019 5:06:00 PM  |  [LEVEL]     Your Venusaur is now level 70!
+7/24/2019 5:07:37 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:07:40 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 33 Crobat!
+7/24/2019 5:07:40 PM  |  [INFO]      Stats: Seen: 60 | Caught: 60 | Catch Rate: 100% | Levels Gained: 56 | Evolutions Gained: 2
+7/24/2019 5:07:40 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:07:40 PM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Crobat [ NEW ]
+7/24/2019 5:07:42 PM  |  [LEVEL]     Your Venusaur is now level 71!
+7/24/2019 5:07:55 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:07:57 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 1 Carnivine!
+7/24/2019 5:07:57 PM  |  [INFO]      Stats: Seen: 61 | Caught: 61 | Catch Rate: 100% | Levels Gained: 57 | Evolutions Gained: 2
+7/24/2019 5:07:57 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:07:57 PM  |  [INFO]      Most caught pokemon: 2 - Crobat
+7/24/2019 5:08:24 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/24/2019 5:08:26 PM  |  [CATCH]     Congratulations <@542094478513668176>! You caught a level 10 Duosion!
+7/24/2019 5:08:26 PM  |  [INFO]      Stats: Seen: 62 | Caught: 62 | Catch Rate: 100% | Levels Gained: 57 | Evolutions Gained: 2
+7/24/2019 5:08:26 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/24/2019 5:08:26 PM  |  [INFO]      [ NEW ] Most caught pokemon: 2 - Duosion [ NEW ]

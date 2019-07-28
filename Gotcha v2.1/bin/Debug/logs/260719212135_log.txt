@@ -1,0 +1,49 @@
+7/26/2019 9:21:36 PM  |  [INFO]      Discord.Net v2.1.1 (API v6)
+7/26/2019 9:21:37 PM  |  [INFO]      Connecting
+7/26/2019 9:21:38 PM  |  [INFO]      Connected
+7/26/2019 9:21:38 PM  |  [LOAD]      Channel: general
+7/26/2019 9:21:38 PM  |  [LOAD]      Token: NjA0NTI2NTc2NDIzNDAzNTQx.XTvPXQ.A421WmaaO2RkFeisky9Nl1cFKhU
+7/26/2019 9:21:38 PM  |  [LOAD]      Prefix: p!
+7/26/2019 9:21:38 PM  |  [LOAD]      Catch Delay: 750
+7/26/2019 9:21:38 PM  |  [LOAD]      Spam Interval: 1500
+7/26/2019 9:21:38 PM  |  [LOAD]      828 Pokémon in Whitelist...
+7/26/2019 9:21:38 PM  |  [LOAD]      AutoUpdate:                              Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      AutoBal:                                 Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      AutoSpam:                                Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      AutoLevel:                               Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      Legendary Notifications:                 Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      Mythic Notifications:                    Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      UltraBeast Notifications:                Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      Event PKMN Notifications:                Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      Shiny Notifications:                     Enabled
+7/26/2019 9:21:38 PM  |  [LOAD]      Bot Started | Press F12 to pause...
+7/26/2019 9:21:48 PM  |  [LEVEL]     Your Wartortle is now level 20!
+7/26/2019 9:22:11 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:22:13 PM  |  [CATCH]     Congratulations <@603745412251123758>! You caught a level 14 Larvesta! Added to Pokédex.
+7/26/2019 9:22:13 PM  |  [INFO]      Stats: Seen: 1 | Caught: 1 | Catch Rate: 100% | Levels Gained: 1 | Evolutions Gained: 0
+7/26/2019 9:22:13 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:22:13 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Larvesta [ NEW ]
+7/26/2019 9:22:15 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/26/2019 9:22:24 PM  |  [LEVEL]     Your Wartortle is now level 21!
+7/26/2019 9:22:51 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:22:54 PM  |  [CATCH]     Congratulations <@603745412251123758>! You caught a level 37 Lurantis! Added to Pokédex.
+7/26/2019 9:22:54 PM  |  [INFO]      Stats: Seen: 2 | Caught: 2 | Catch Rate: 100% | Levels Gained: 2 | Evolutions Gained: 0
+7/26/2019 9:22:54 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:22:54 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Lurantis [ NEW ]
+7/26/2019 9:22:55 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/26/2019 9:23:00 PM  |  [LEVEL]     Your Wartortle is now level 22!
+7/26/2019 9:23:14 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:23:17 PM  |  [CATCH]     Congratulations <@603745412251123758>! You caught a level 2 Pidgey! Added to Pokédex.
+7/26/2019 9:23:17 PM  |  [INFO]      Stats: Seen: 3 | Caught: 3 | Catch Rate: 100% | Levels Gained: 3 | Evolutions Gained: 0
+7/26/2019 9:23:17 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:23:17 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Pidgey [ NEW ]
+7/26/2019 9:23:18 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/26/2019 9:23:35 PM  |  [LEVEL]     Your Wartortle is now level 23!
+7/26/2019 9:24:11 PM  |  [ENCOUNTER] A wild Pokémon has appeared!
+7/26/2019 9:24:14 PM  |  [CATCH]     Congratulations <@603745412251123758>! You caught a level 16 Klang! Added to Pokédex.
+7/26/2019 9:24:14 PM  |  [INFO]      Stats: Seen: 4 | Caught: 4 | Catch Rate: 100% | Levels Gained: 4 | Evolutions Gained: 0
+7/26/2019 9:24:14 PM  |  [INFO]      Legendary:   0 | Mythic: 0 | Ultra Beast: 0
+7/26/2019 9:24:14 PM  |  [INFO]      [ NEW ] Most caught pokemon: 1 - Klang [ NEW ]
+7/26/2019 9:24:15 PM  |  [INFO]      New Pokédex reward available. Claiming the balance.
+7/26/2019 9:24:16 PM  |  [LEVEL]     Your Wartortle is now level 24!
+7/26/2019 9:24:53 PM  |  [LEVEL]     Your Wartortle is now level 25!

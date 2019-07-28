@@ -1,3 +1,0 @@
-7/24/2019 5:54:39 PM  |  [INFO]      Discord.Net v2.1.1 (API v6)
-7/24/2019 5:54:40 PM  |  [INFO]      Connecting
-7/24/2019 5:54:40 PM  |  [INFO]      Connected

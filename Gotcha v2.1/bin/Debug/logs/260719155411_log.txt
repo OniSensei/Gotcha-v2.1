@@ -1,6 +1,0 @@
-7/26/2019 3:54:12 PM  |  [LOAD]      Enter Token: 
-7/26/2019 3:54:14 PM  |  [INFO]      Settings updated | Token = NTk5ODE5NjQ2NTI2NDIzMDQw.XTuEmA.e15R0e-TsNYae26jT2WDnuL8Ck0
-7/26/2019 3:54:14 PM  |  [LOAD]      Enter Channel Name: 
-7/26/2019 3:54:18 PM  |  [INFO]      Settings updated | Channel = general2
-7/26/2019 3:54:18 PM  |  [INFO]      Discord.Net v2.1.1 (API v6)
-7/26/2019 3:54:19 PM  |  [INFO]      Connecting

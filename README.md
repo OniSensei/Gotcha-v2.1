@@ -16,7 +16,9 @@
 
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.6](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.6) - Latest Release - Not needed if you use auto update.
+> [Gotcha v2.1.0.7](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.7) - Latest Release 
+
+> [Gotcha v2.1.0.6](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.6) - Older
 
 > [Gotcha v2.1.0.5](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.5) - Older - New auto update feature. This can be turned off in settings.ini
 
@@ -32,6 +34,7 @@
 
 ## Discord Commands
 ```
+Commands:
 +g <- Prefix
 
 Settings Commands: (you must include the "[]" brackets.)
@@ -41,13 +44,22 @@ Settings Commands: (you must include the "[]" brackets.)
 	
 +g[settings][token][yourtoken] <- replace yourtoken with your token.
 	- This command changes the token in the settings.ini file.
+	
++g[settings][prefix][p!] <- replace p! with your pokecord prefix.
+	- This command changes the token in the settings.ini file.
 
 +g[settings][spamdelay][1500] <- replace 1500 with your delay in ms.
 	- This command changes the spam delay in the settings.ini file. (1500ms the default, is the suggested ammount)
 
++g[settings][autoupdate][on/off] < - replace on/off with either on or off.
+	- This command changes the auto updater to true or false in the settings.ini file.
+	
 +g[settings][autospam][on/off] < - replace on/off with either on or off.
 	- This command changes the auto spammer to true or false in the settings.ini file.
 
++g[settings][autolevel][on/off] < - replace on/off with either on or off.
+	- This command changes the auto leveler to true or false in the settings.ini file.
+	
 +g[settings][autobal][on/off] <- replace on/off with either on or off.
 	- This command changes the auto ballance to true or false in the settings.ini file.
 	
@@ -66,6 +78,12 @@ Settings Commands: (you must include the "[]" brackets.)
 +g[settings][event][on/off] <- replace on/off with either on or off.
 	- This command changes the event pokemon notifications to true or false in the settings.ini file.
 	
++g[settings][shiny][on/off] <- replace on/off with either on or off.
+	- This command changes the shiny pokemon notifications to true or false in the settings.ini file.
+		
++g[settings][custom][on/off] <- replace on/off with either on or off.
+	- This command changes the custom pokemon notifications to true or false in the settings.ini file.
+		
 +g[settings][reload]
 	- This command reloads the settings.ini file. This is required after any settings changes in order to take effect. Even after it is suggested to reboot the bot.
 	
@@ -190,23 +208,30 @@ PokeWhitelist = Detective Pikachu, Bulbasaur, Ivysaur, Venusaur
 
 ```
 [Notifications]
-// Notifications will pm the user if set to True when the user catches the corresponding pokemon .
+// Notifications will pm the user if set to True when the user catches the corresponding pokemon.
 Legendary = True
 Mythical = True
 UltraBeast = True
 EventPkmn = True
 Shiny = True
+
+// These are pokemon not listed above that you still want notifications for.
+CustomPkmn = False
+CustomPoke = Dragonite, Tyranitar, Salamance, Metagross, Garchomp, Hydreigon, Goodra, Kommo-o
 ```
 
 ## Recent Changes
 ```
-- Updated whitelist check
-- Added Pokécord online status check
-- Added function to auto swap Pokémon when level = 100
-- Added shiny notifications
-- Updated settings.ini
-  - Added AutoUpdate toggle
-  - Added AutoLevel toggle for new auto swap feature
-  - Added Shiny toggle for shiny notifications
-- Auto updates
+ -Added shiny catch count to stats
+ -Added user count to backend
+ -Added online count command
+      +g[online]
+ -Added custom pokemon notifications
+ -Update spammer | conditional channel
+ -Updated bot commands
+      -Added +g[settings][prefix][p!]
+      -Added +g[settings][autoupdate][on/off]
+      -Added +g[settings][autolevel][on/off]
+      -Added +g[settings][shiny][on/off]
+      -Added +g[settings][custom][on/off]
 ```

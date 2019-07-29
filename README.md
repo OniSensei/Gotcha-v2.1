@@ -7,7 +7,7 @@
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
 ## Preview
-![preview](https://imgur.com/nogZlZY.png)
+![preview](https://imgur.com/TwepYvy.png)
 
 ## Video guide
 > [Youtube](https://www.youtube.com/watch?v=Fk16LdoEyRY)

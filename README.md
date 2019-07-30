@@ -3,6 +3,8 @@
 ## Support
 > Discord: DefaulT#2648
 
+This bot is not for pokemon go. It is for the discord bot called pokecord.
+
 ### Auto spammer / catcher for discord bot pokecord
 ### This will take over your keyboard. This is not meant to be used in a discord server with mutiple people, use at your own risk.
 
@@ -16,7 +18,9 @@
 
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.7](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.7) - Latest Release 
+> [Gotcha v2.1.0.8](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.8) - Latest Release - New webbrowser support
+
+> [Gotcha v2.1.0.7](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.7) - Older
 
 > [Gotcha v2.1.0.6](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.6) - Older
 
@@ -172,6 +176,14 @@ Channel = general
 // The bot token used to log into the bot we invite - used to read pokecord messages - dont share this token!
 BotToken = 
 
+// This is what you're using discord on.
+// If you're using the desktop client then Client = Discord
+// If you're using discord in chrome then Client = Chrome
+// If you're using discord in firefox then Client = Mozilla Firefox
+// If you're using microsoft edge then just don't.
+// If you're using internet explorer its impossible don't lie.
+Client = Discord
+
 // The pokecord prefix for your server 
 Prefix = p!
 
@@ -189,9 +201,15 @@ SpamInterval = 1500
 
 // This is the Auto Spammer toggle - if False then the bot will not spam
 AutoSpam = True
+```
 
-// This is the Auto Level toggle - if False then the bot will not switch pokemon when they reach level 100
+```
+[Levels]
+// This is the Auto Level toggle - if False then the bot will not switch pokemon at leve l00
 AutoLevel = True
+
+// This is the level queue - put pokemon number here seperated by comma, the bot will cycle through them first before doing p!select latest
+LevelQueue =  1, 2, 3 , 4, 5
 ```
 
 ```
@@ -222,16 +240,15 @@ CustomPoke = Dragonite, Tyranitar, Salamance, Metagross, Garchomp, Hydreigon, Go
 
 ## Recent Changes
 ```
- -Added shiny catch count to stats
- -Added user count to backend
- -Added online count command
-      +g[online]
- -Added custom pokemon notifications
- -Update spammer | conditional channel
- -Updated bot commands
-      -Added +g[settings][prefix][p!]
-      -Added +g[settings][autoupdate][on/off]
-      -Added +g[settings][autolevel][on/off]
-      -Added +g[settings][shiny][on/off]
-      -Added +g[settings][custom][on/off]
+- Added queue to AutoLevel
+- Fixed AutoUpdate conditional statement
+- Fixed Online Count
+- Fixed Close button
+- Modified some console outputs
+- Added time stamp to Pokecord offline
+- Fixed Discord.Net disconnect on close
+- Added counts.ini
+     - Added lifetime counts for catches/levels
+- Added client webbrowser compatability
+     - Added Client to Settings.ini
 ```

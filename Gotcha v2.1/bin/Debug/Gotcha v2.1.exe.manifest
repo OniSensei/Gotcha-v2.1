@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Gotcha.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Gotcha v2.1" version="2.1.0.5" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Gotcha v2.1" version="2.1.0.8" language="neutral" processorArchitecture="msil" />
     <commandLine file="Gotcha v2.1.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gotcha v2.1.exe" size="80896">
-      <assemblyIdentity name="Gotcha v2.1" version="2.1.0.5" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gotcha v2.1.exe" size="89088">
+      <assemblyIdentity name="Gotcha v2.1" version="2.1.0.8" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Te2ulyS4TnEtqWlApC7/ezE1J5sVlKSncam7Chyl9YI=</dsig:DigestValue>
+        <dsig:DigestValue>GbF5IKof9rPdN4ZPf/ep6k4w7rG/9kfWfL2ybukqLUE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -402,13 +402,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Gotcha v2.1.exe.config" size="1045">
+  <file name="Gotcha v2.1.exe.config" size="1090">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>svTRFFOkzzqFWWV3cV3NOXB8ZbekqrsYOZjJBKspN5g=</dsig:DigestValue>
+      <dsig:DigestValue>YLfpvfF7ZWUYRPZa3FzWB2G3axf2hd1sAuFWtPUZYz8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Gotcha.ico" size="15086">

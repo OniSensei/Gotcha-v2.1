@@ -8,13 +8,22 @@ Settings Commands: (you must include the "[]" brackets.)
 	
 +g[settings][token][yourtoken] <- replace yourtoken with your token.
 	- This command changes the token in the settings.ini file.
+	
++g[settings][prefix][p!] <- replace p! with your pokecord prefix.
+	- This command changes the token in the settings.ini file.
 
 +g[settings][spamdelay][1500] <- replace 1500 with your delay in ms.
 	- This command changes the spam delay in the settings.ini file. (1500ms the default, is the suggested ammount)
 
++g[settings][autoupdate][on/off] < - replace on/off with either on or off.
+	- This command changes the auto updater to true or false in the settings.ini file.
+	
 +g[settings][autospam][on/off] < - replace on/off with either on or off.
 	- This command changes the auto spammer to true or false in the settings.ini file.
 
++g[settings][autolevel][on/off] < - replace on/off with either on or off.
+	- This command changes the auto leveler to true or false in the settings.ini file.
+	
 +g[settings][autobal][on/off] <- replace on/off with either on or off.
 	- This command changes the auto ballance to true or false in the settings.ini file.
 	
@@ -33,6 +42,12 @@ Settings Commands: (you must include the "[]" brackets.)
 +g[settings][event][on/off] <- replace on/off with either on or off.
 	- This command changes the event pokemon notifications to true or false in the settings.ini file.
 	
++g[settings][shiny][on/off] <- replace on/off with either on or off.
+	- This command changes the shiny pokemon notifications to true or false in the settings.ini file.
+		
++g[settings][custom][on/off] <- replace on/off with either on or off.
+	- This command changes the custom pokemon notifications to true or false in the settings.ini file.
+		
 +g[settings][reload]
 	- This command reloads the settings.ini file. This is required after any settings changes in order to take effect. Even after it is suggested to reboot the bot.
 	

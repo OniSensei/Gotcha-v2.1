@@ -7,6 +7,7 @@ Imports System.Windows.Forms
 Imports Nini.Config
 Imports System.Runtime.InteropServices
 Imports System.Text.RegularExpressions
+Imports System.Text
 
 Module Gotcha
     ' Our lists, all pokemon, legendary, mythic, ultra beast, alolan forms, and event pokemon
@@ -33,8 +34,9 @@ Module Gotcha
     Dim ubPKMN As Integer = 0
     Dim ePKMN As Integer = 0
     Dim topcount As Integer = 0
+    Dim onlinecount As Integer = 0
     Dim rPokemon As String
-    Dim topPokemon As String 
+    Dim topPokemon As String
     Dim onlinestatus As Boolean
     Dim encounter As Boolean
 
@@ -42,12 +44,14 @@ Module Gotcha
     Dim iniSettings As New IniConfigSource(Application.StartupPath & "/config/settings.ini")
     Dim token As String = iniSettings.Configs("Basic").Get("BotToken")
     Dim channel As String = iniSettings.Configs("Basic").Get("Channel")
+    Dim clientype As String = iniSettings.Configs("Basic").Get("Client")
     Dim pokePrefix As String = iniSettings.Configs("Basic").Get("Prefix")
     Dim version As String = iniSettings.Configs("Basic").Get("Version")
     Dim autoUpdate As Boolean = iniSettings.Configs("Basic").Get("AutoUpdate")
     Dim spamInterval As Integer = iniSettings.Configs("Spam").Get("SpamInterval")
     Dim autoSpam As Boolean = iniSettings.Configs("Spam").Get("AutoSpam")
-    Dim levelGrind As Boolean = iniSettings.Configs("Spam").Get("AutoLevel")
+    Dim levelGrind As Boolean = iniSettings.Configs("Levels").Get("AutoLevel")
+    Dim levelQueue As String = iniSettings.Configs("Levels").Get("LevelQueue")
     Dim autoBal As Boolean = iniSettings.Configs("Catch").Get("AutoBal")
     Dim catchDelay As Integer = iniSettings.Configs("Catch").Get("CatchDelay")
     Dim pokeWhite As String = iniSettings.Configs("Catch").Get("PokeWhitelist")
@@ -56,14 +60,35 @@ Module Gotcha
     Dim ultraToggle As Boolean = iniSettings.Configs("Notifications").Get("UltraBeast")
     Dim eventToggle As Boolean = iniSettings.Configs("Notifications").Get("EventPkmn")
     Dim shinyToggle As Boolean = iniSettings.Configs("Notifications").Get("Shiny")
+    Dim customToggle As Boolean = iniSettings.Configs("Notifications").Get("CustomPkmn")
+    Dim customPoke As String = iniSettings.Configs("Notifications").Get("CustomPoke")
+    Dim levelQueueList As String() = levelQueue.Split(New Char() {","c})
+    Dim lstLevelQueue As List(Of String) = New List(Of String)(levelQueueList)
+    Dim cPokeList As String() = customPoke.Split(New Char() {","c})
     Dim whitelist As String() = pokeWhite.Split(New Char() {","c})
     Dim whitecount As Integer = whitelist.Count
+
+    ' Load catchLog.ini
+    Dim iniCatches As New IniConfigSource(Application.StartupPath & "/config/counts.ini")
+    Dim seenPk As Integer = iniCatches.Configs("Catches").Get("Seen")
+    Dim catchPk As Integer = iniCatches.Configs("Catches").Get("Caught")
+    Dim legendPK As Integer = iniCatches.Configs("Catches").Get("Legendary")
+    Dim mythicPK As Integer = iniCatches.Configs("Catches").Get("Mythical")
+    Dim ubPK As Integer = iniCatches.Configs("Catches").Get("UltraBeast")
+    Dim eventPK As Integer = iniCatches.Configs("Catches").Get("Event")
+    Dim customePK As Integer = iniCatches.Configs("Catches").Get("Custom")
+    Dim shinyPK As Integer = iniCatches.Configs("Catches").Get("Shiny")
+    Dim levelPK As Integer = iniCatches.Configs("Levels").Get("Level")
+    Dim evoPK As Integer = iniCatches.Configs("Levels").Get("Evolution")
 
     ' Set logfile
     Dim logFile As String = Application.StartupPath & "/logs/" & DateTime.Now.ToString("ddMMyyHHmmss") & "_log.txt"
 
     ' Main sub
     Sub Main(args As String())
+        handler = New ConsoleEventDelegate(AddressOf ConsoleEventCallback)
+        SetConsoleCtrlHandler(handler, True)
+
         ' Start main as an async sub
         MainAsync.GetAwaiter.GetResult()
     End Sub
@@ -92,10 +117,8 @@ Module Gotcha
         Colorize("||G |||o |||t |||c |||h |||a |||       |||v |||2 |||. |||1 ||")
         Colorize("||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__||")
         Colorize("|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|")
-        Colorize("")
         Colorize("____________________________________________________________")
         Colorize("              [ Loading Gotcha v" & version & " ]                   ")
-        Colorize("                                                            ")
         ' Set thread
         Threading.Thread.CurrentThread.SetApartmentState(Threading.ApartmentState.STA)
 
@@ -105,9 +128,11 @@ Module Gotcha
         Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
         Dim iVersion As String = reader.ReadToEnd
 
-        If iVersion.Contains(version) = False Then ' Update
-            Process.Start("Gotcha Updater.exe")
-            End
+        If autoUpdate = True Then
+            If iVersion.Contains(version) = False Then ' Update
+                Process.Start("Gotcha Updater.exe")
+                End
+            End If
         End If
 
         reader.Close()
@@ -124,24 +149,37 @@ Module Gotcha
             Colorize("[INFO]      Settings updated | Channel = " & channel)
             iniSettings.Save()
         End If
+
         Try
             Await _client.LoginAsync(TokenType.Bot, token)
         Catch ex As Exception
             Console.WriteLine("Incorrect token | Check settings.ini")
         End Try
+
+        ' Update user count
+        Try
+            Dim userurl As String = "https://gotchabot.000webhostapp.com/v2/online/add.php"
+            Dim uClient As WebClient = New WebClient
+            Dim uReader As StreamReader = New StreamReader(uClient.OpenRead(userurl))
+            Dim usr As String = uReader.ReadToEnd
+
+            onlinecount = usr
+            uReader.Close()
+        Catch ex As Exception
+        End Try
+
         ' Wait for the client to start
         Await _client.StartAsync
         Await Task.Delay(-1)
     End Function
 
     ' Log discord.net messages
-    Private Function LogAsync(ByVal log As LogMessage) As Task
+    Private Async Function LogAsync(ByVal log As LogMessage) As Task(Of Task)
         ' Once loginasync and startasync finish we get the log message of "Ready" once we get that, we load everything else
         If log.ToString.Contains("Ready") Then
             ' This is mostly just visual crap cause we loaded the settings up above
             Colorize("____________________________________________________________")
             Colorize("                    [ SETTINGS.INI ]                        ")
-            Colorize("                                                            ")
             Colorize("[LOAD]      Channel: " & channel)
             Colorize("[LOAD]      Token: " & token)
             Colorize("[LOAD]      Prefix: " & pokePrefix)
@@ -197,9 +235,13 @@ Module Gotcha
             Else
                 Colorize("[LOAD]      Shiny Notifications:                    Disabled")
             End If
+            If customToggle = True Then
+                Colorize("[LOAD]      Custom Notifications:                    Enabled")
+            Else
+                Colorize("[LOAD]      Custom Notifications:                   Disabled")
+            End If
             Colorize("____________________________________________________________")
-            Colorize("                                                            ")
-            Colorize("[LOAD]      Bot Started | Press F12 to pause...")
+            Colorize("[LOAD]      Bot Started | Press F12 to pause OR Esc to Close")
 
             ' This timer is to detect F12 for pausing and resuming
             keyTimer.Interval = "750"
@@ -226,6 +268,14 @@ Module Gotcha
                     For Each value As String In legends ' Split the legendary list from above
                         If message.Content.Contains(value) Then ' if the pokemon is in the legendary list then continue
                             Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString) ' pm user its legendary
+
+                            ' Update stats
+                            lPKMN += 1
+                            legendPK += 1
+                            iniCatches.Configs("Catches").Set("Legendary", legendPK)
+
+                            iniCatches.Save()
+
                             Colorize("[INFO]      Legendary notification sent...") ' update console
                         End If
                     Next
@@ -236,6 +286,14 @@ Module Gotcha
                     For Each value As String In mythics
                         If message.Content.Contains(value) Then
                             Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString)
+
+                            ' Update stats
+                            mPKMN += 1
+                            mythicPK += 1
+                            iniCatches.Configs("Catches").Set("Mythical", mythicPK)
+
+                            iniCatches.Save()
+
                             Colorize("[INFO]      Mythical notification sent...")
                         End If
                     Next
@@ -245,6 +303,14 @@ Module Gotcha
                     For Each value As String In ultrabeasts
                         If message.Content.Contains(value) Then
                             Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString)
+
+                            ' Update stats
+                            ubPKMN += 1
+                            ubPK += 1
+                            iniCatches.Configs("Catches").Set("UltraBeast", ubPK)
+
+                            iniCatches.Save()
+
                             Colorize("[INFO]      Ultra Beast notification sent...")
                         End If
                     Next
@@ -254,7 +320,32 @@ Module Gotcha
                     For Each value As String In pkmnEvents
                         If message.Content.Contains(value) Then
                             Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString)
+
+                            ' Update stats
+                            ePKMN += 1
+                            eventPK += 1
+                            iniCatches.Configs("Catches").Set("Event", eventPK)
+
+                            iniCatches.Save()
+
                             Colorize("[INFO]      Event Pokemon notification sent...")
+                        End If
+                    Next
+                End If
+
+                If customToggle = True Then
+                    For Each value As String In cPokeList
+                        If message.Content.Contains(value) Then
+                            Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString)
+
+                            ' Update stats
+                            customPoke += 1
+                            customePK += 1
+                            iniCatches.Configs("Catches").Set("Custom", customePK)
+
+                            iniCatches.Save()
+
+                            Colorize("[INFO]      Custom Pokemon notification sent...")
                         End If
                     Next
                 End If
@@ -269,36 +360,39 @@ Module Gotcha
                 ' Add recent catch to list
                 lstRecentCatches.Add(rPokemon)
 
+                ' Update stats
+                catchPk += 1
+                iniCatches.Configs("Catches").Set("Caught", catchPk)
+
+                iniCatches.Save()
 
                 ' Count the most frequently caught pokemon
                 Dim pkmncount As Integer = lstRecentCatches.Where(Function(value) value = rPokemon).Count
+
+                ' Math for catch percentage
+                Dim ratio As Double = Math.Round(catchCount / seenCount * 100)
+                Dim ratio2 As Double = Math.Round(catchPk / seenPk * 100)
 
                 If pkmncount >= topcount Then
                     topcount = pkmncount ' set new top count
                     topPokemon = rPokemon ' set new top pokemon
 
-                    ' Math for catch percentage
-                    Dim ratio As Double = Math.Round(catchCount / seenCount * 100)
-
                     ' Update console with stats
-                    Colorize("[INFO]      Stats: Seen: " & seenCount & " | Caught: " & catchCount & " | Catch Rate: " & ratio & "% | Levels Gained: " & level & " | Evolutions Gained: " & evo)
-                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN& & " | Shiny: " & shinyCount)
-                    Colorize("[INFO]      [ NEW ] Most caught pokemon: " & topcount & " - " & topPokemon & " [ NEW ]")
+                    Colorize("[STAT]      Seen: " & seenCount & " [" & seenPk & "] | Caught: " & catchCount & " [" & catchPk & "] | Catch Rate: " & ratio & "% [" & ratio2 & "%]")
+                    Colorize("[STAT]      Legendary: " & lPKMN & " [" & legendPK & "] | Mythic: " & mPKMN & " [" & mythicPK & "] | Ultra Beast: " & ubPKMN& & " [" & ubPK & "] | Shiny: " & shinyCount & " [" & shinyPK & "]")
+                    Colorize("[STAT]      [ NEW ] Most caught pokemon: " & topcount & " - " & topPokemon & " [ NEW ]")
                 Else
-                    ' Math for catch percentage
-                    Dim ratio As Double = Math.Round(catchCount / seenCount * 100)
-
                     ' Update console with stats
-                    Colorize("[INFO]      Stats: Seen: " & seenCount & " | Caught: " & catchCount & " | Catch Rate: " & ratio & "% | Levels Gained: " & level & " | Evolutions Gained: " & evo)
-                    Colorize("[INFO]      Legendary:   " & lPKMN & " | Mythic: " & mPKMN & " | Ultra Beast: " & ubPKMN& & " | Shiny: " & shinyCount)
-                    Colorize("[INFO]      Most caught pokemon: " & topcount & " - " & topPokemon)
+                    Colorize("[STAT]      Seen: " & seenCount & " [" & seenPk & "] | Caught: " & catchCount & " [" & catchPk & "] | Catch Rate: " & ratio & "% [" & ratio2 & "%]")
+                    Colorize("[STAT]      Legendary: " & lPKMN & " [" & legendPK & "] | Mythic: " & mPKMN & " [" & mythicPK & "] | Ultra Beast: " & ubPKMN& & " [" & ubPK & "] | Shiny: " & shinyCount & " [" & shinyPK & "]")
+                    Colorize("[STAT]      Most caught pokemon: " & topcount & " - " & topPokemon)
                 End If
 
                 ' Checks if the message also contains pokedex reward tags like added to pokedex, or 10th, or 100th pokemon caught
                 ' Also only auto balance command if the toggle is on in settings
                 If message.Content.Contains("Added to Pokédex") And autoBal = True Then
                     Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
-                    FindDiscordWindow(channel) ' Find discord window
+                    FindDiscordWindow(channel, clientype) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
@@ -306,7 +400,7 @@ Module Gotcha
                     Colorize("[INFO]      New Pokédex reward available. Claiming the balance.")
                 ElseIf message.Content.Contains("10th") And autoBal = True Then
                     Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
-                    FindDiscordWindow(channel) ' Find discord window
+                    FindDiscordWindow(channel, clientype) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
@@ -314,7 +408,7 @@ Module Gotcha
                     Colorize("[INFO]      New Pokédex reward available. Claiming the balance.")
                 ElseIf message.Content.Contains("100th") And autoBal = True Then
                     Threading.Thread.Sleep(spamInterval) ' otherwise it can tell us we are sending commands to fast
-                    FindDiscordWindow(channel) ' Find discord window
+                    FindDiscordWindow(channel, clientype) ' Find discord window
                     SendKeys.SendWait(pokePrefix & "pokedex claim all") ' Send the command to collect balance
                     SendKeys.SendWait("{Enter}")
 
@@ -324,6 +418,9 @@ Module Gotcha
                     If shinyToggle = True Then ' if we want shiny notifications then continue
                         Colorize("[INFO]      Shiny notification sent...") ' update console
                         shinyCount += 1
+                        shinyPK += 1
+                        iniCatches.Configs("Catches").Set("Shiny", shinyPK)
+                        iniCatches.Save()
                         Await UserExtensions.SendMessageAsync(message.MentionedUsers.FirstOrDefault, message.Content.ToString) ' pm user its shiny
                     End If
                 End If
@@ -346,6 +443,10 @@ Module Gotcha
                 ' Update console and seen count
                 Colorize("[ENCOUNTER] A wild Pokémon has appeared!")
                 seenCount += 1
+                seenPk += 1
+                iniCatches.Configs("Catches").Set("Seen", seenPk)
+
+                iniCatches.Save()
 
                 ' Download the image into memory for conversion to base64
                 Dim url As String = message.Embeds(0).Image.ToString ' URL of image from pokemon spawn on discord
@@ -362,19 +463,16 @@ Module Gotcha
                         For Each fi As FileInfo In di.GetFiles() ' get the file name of each file i n the directory
                             If File.ReadAllText(fi.FullName).Contains(pokemon) Then ' if the file contains the base64 string then
                                 Try
-                                    FindDiscordWindow(channel) ' find discord
+                                    FindDiscordWindow(channel, clientype) ' find discord
                                     pokemonName = fi.Name
                                     pokemonName = pokemonName.Remove(pokemonName.Length - 4) ' clean up the ".txt" from end of file name
                                     If pokeWhite.Contains(pokemonName) Then ' if pokemon is on the whitelist
                                         If pokemonName = "Nidoran_m" Then pokemonName = "Nidoran" ' cleanup
                                         If pokemonName = "TypeNull" Then pokemonName = "Type: Null" ' cleanup
-                                        ' If the pokemon matches the list then update the count
-                                        If legends.Contains(pokemonName) Then lPKMN += 1
-                                        If mythics.Contains(pokemonName) Then mPKMN += 1
-                                        If ultrabeasts.Contains(pokemonName) Then ubPKMN += 1
-                                        If pkmnEvents.Contains(pokemonName) Then ePKMN += 1
+
                                         ' set recent pokemon name
                                         rPokemon = pokemonName
+
                                         ' Catch delay
                                         Threading.Thread.Sleep(catchDelay)
                                         SendKeys.SendWait(pokePrefix & "catch " & pokemonName.ToLower) ' Actual catch
@@ -404,30 +502,67 @@ Module Gotcha
                 ' Update console and level count
                 Colorize("[LEVEL]     " & message.Embeds(0).Description)
                 level += 1
+                levelPK += 1
+
+                iniCatches.Configs("Levels").Set("Level", levelPK)
+
+                iniCatches.Save()
+
+                Colorize("[STAT]      Levels Gained: " & level & " [" & levelPK & "] | Evolutions Gained: " & evo & " [" & evoPK & "]")
 
                 ' Pokemon is max level
                 If message.Embeds(0).Description.Contains("100") Then
                     ' Pokemon is max level, lets switch it
-                    If MainTimer.Enabled = True Then
-                        MainTimer.Stop() ' Pause spammer 
+                    If levelGrind = True Then
+                        If MainTimer.Enabled = True Then
+                            MainTimer.Stop() ' Pause spammer 
+                        End If
+                        If lstLevelQueue.Count = 0 Then
+                            FindDiscordWindow(channel, clientype) ' find discord
+                            Threading.Thread.Sleep(spamInterval) ' Delay
+                            SendKeys.SendWait(pokePrefix & "select latest") ' Switch pokemon to latest caught
+                            SendKeys.SendWait("{Enter}") ' Send command
+                        Else
+                            ' que
+                            FindDiscordWindow(channel, clientype) ' find discord
+                            Threading.Thread.Sleep(spamInterval) ' Delay
+                            SendKeys.SendWait(pokePrefix & "select " & lstLevelQueue(0).ToString) ' Switch pokemon to next in queue
+                            SendKeys.SendWait("{Enter}") ' Send command
+
+                            ' Remove from queue
+                            lstLevelQueue.RemoveAt(0)
+
+                            ' Update settings.ini
+                            Dim newQueue As String = String.Join(",", lstLevelQueue)
+                            iniSettings.Configs("Levels").Set("LevelQueue", newQueue)
+                            iniSettings.Save()
+
+                            ' Add any additions from the ini
+                            levelQueue = iniSettings.Configs("Levels").Get("LevelQueue")
+                            levelQueueList = levelQueue.Split(New Char() {","c})
+                            lstLevelQueue = New List(Of String)(levelQueueList)
+                        End If
+                        If autoSpam = True Then
+                            MainTimer.Start() ' Restart spammer
+                        End If
+                        Colorize("[LEVEL]     Your Pokémon has reached max level. Switching selected Pokémon...")
                     End If
-                    FindDiscordWindow(channel) ' find discord
-                    Threading.Thread.Sleep(spamInterval) ' Delay
-                    SendKeys.SendWait(pokePrefix & "select latest") ' Switch pokemon to latest caught
-                    SendKeys.SendWait("{Enter}") ' Send command
-                    If autoSpam = True Then
-                        MainTimer.Start() ' Restart spammer
-                    End If
-                    Colorize("[LEVEL]     Your Pokémon has reached max level. Switching selected Pokémon...")
                 End If
             End If
 
             ' Evolution
-            If message.Embeds(0).Fields.Count <> 0 Then
+            If message.Embeds(0).Fields.Count = 2 Then
                 ' Update console and evo count
                 Colorize("[EVOLVE]    " & message.Embeds(0).Fields(0).Name.ToString)
                 Colorize("[EVOLVE]    " & message.Embeds(0).Fields(0).Value.ToString)
                 evo += 1
+                evoPK += 1
+
+                iniCatches.Configs("Levels").Set("Evolution", evoPK)
+
+                iniCatches.Save()
+
+                Colorize("[STAT]      Levels Gained: " & level & " [" & levelPK & "] | Evolutions Gained: " & evo & " [" & evoPK & "]")
             End If
 
         Else
@@ -466,6 +601,20 @@ Module Gotcha
                         param3 = param3.Substring(0, param3.Length - 1)
                         iniSettings.Configs("Basic").Set("BotToken", param3)
                         Colorize("[INFO]      Settings updated | BotToken = " & param3)
+                    ElseIf param2 = "[prefix]" Then ' Prefix settings
+                        param3 = param3.Substring(1)
+                        param3 = param3.Substring(0, param3.Length - 1)
+                        iniSettings.Configs("Basic").Set("Prefix", param3)
+                        Colorize("[INFO]      Settings updated | Prefix = " & param3)
+                    ElseIf param2 = "[autoupdate]" Then ' Auto update settings
+                        If param3 = "[on]" Then
+                            MainTimer.Interval = spamInterval
+                            iniSettings.Configs("Basic").Set("AutoUpdate", "True")
+                            Colorize("[INFO]      Settings updated | AutoUpdate = True")
+                        ElseIf param3 = "[off]" Then
+                            iniSettings.Configs("Basic").Set("AutoUpdate", "False")
+                            Colorize("[INFO]      Settings updated | AutoUpdate = Flase")
+                        End If
                     ElseIf param2 = "[spamdelay]" Then ' Spam delay settings
                         param3 = param3.Substring(1)
                         param3 = param3.Substring(0, param3.Length - 1)
@@ -481,6 +630,15 @@ Module Gotcha
                         ElseIf param3 = "[off]" Then
                             iniSettings.Configs("Spam").Set("AutoSpam", "False")
                             Colorize("[INFO]      Settings updated | AutoSpam = Flase")
+                        End If
+                    ElseIf param2 = "[autolevel]" Then ' Auto level settings
+                        If param3 = "[on]" Then
+                            MainTimer.Interval = spamInterval
+                            iniSettings.Configs("Level").Set("AutoLevel", "True")
+                            Colorize("[INFO]      Settings updated | AutoLevel = True")
+                        ElseIf param3 = "[off]" Then
+                            iniSettings.Configs("Level").Set("AutoLevel", "False")
+                            Colorize("[INFO]      Settings updated | AutoLevel = Flase")
                         End If
                     ElseIf param2 = "[autobal]" Then ' Auto ballance settings
                         If param3 = "[on]" Then
@@ -528,26 +686,40 @@ Module Gotcha
                             iniSettings.Configs("Notifications").Set("EventPokemon", "False")
                             Colorize("[INFO]      Settings updated | EventPokemon = Flase")
                         End If
-                    ElseIf param2 = "[prefix]" Then ' Prefix changes
-                        param3 = param3.Substring(1)
-                        param3 = param3.Substring(0, param3.Length - 1)
-                        catchDelay = param3
-                        iniSettings.Configs("Basic").Set("Version", param3)
-                        Colorize("[INFO]      Settings updated | CatchDelay = " & param3)
+                    ElseIf param2 = "[shiny]" Then ' Shiny notifications
+                        If param3 = "[on]" Then
+                            iniSettings.Configs("Notifications").Set("Shiny", "True")
+                            Colorize("[INFO]      Settings updated | Shiny = True")
+                        ElseIf param3 = "[off]" Then
+                            iniSettings.Configs("Notifications").Set("Shiny", "False")
+                            Colorize("[INFO]      Settings updated | Shiny = Flase")
+                        End If
+                    ElseIf param2 = "[custom]" Then ' Shiny notifications
+                        If param3 = "[on]" Then
+                            iniSettings.Configs("Notifications").Set("CustomPkmn", "True")
+                            Colorize("[INFO]      Settings updated | CustomPkmn = True")
+                        ElseIf param3 = "[off]" Then
+                            iniSettings.Configs("Notifications").Set("CustomPkmn", "False")
+                            Colorize("[INFO]      Settings updated | CustomPkmn = Flase")
+                        End If
                     ElseIf param2 = "[reload]" Then ' Reload settings
                         token = iniSettings.Configs("Basic").Get("BotToken")
                         channel = iniSettings.Configs("Basic").Get("Channel")
                         pokePrefix = iniSettings.Configs("Basic").Get("Prefix")
                         version = iniSettings.Configs("Basic").Get("Version")
+                        autoUpdate = iniSettings.Configs("Basic").Get("AutoUpdate")
                         spamInterval = iniSettings.Configs("Spam").Get("SpamInterval")
                         autoSpam = iniSettings.Configs("Spam").Get("AutoSpam")
+                        levelGrind = iniSettings.Configs("Level").Get("AutoLevel")
                         autoBal = iniSettings.Configs("Catch").Get("AutoBal")
                         catchDelay = iniSettings.Configs("Catch").Get("CatchDelay")
-                        pokeWhite = iniSettings.Configs("Catch").Get("PokeWhitelist")
                         legendToggle = iniSettings.Configs("Notifications").Get("Legendary")
                         mythicToggle = iniSettings.Configs("Notifications").Get("Mythical")
                         ultraToggle = iniSettings.Configs("Notifications").Get("UltraBeast")
                         eventToggle = iniSettings.Configs("Notifications").Get("EventPkmn")
+                        shinyToggle = iniSettings.Configs("Notifications").Get("Shiny")
+                        customToggle = iniSettings.Configs("Notifications").Get("Custom")
+
                         MainTimer.Interval = spamInterval
                         If autoSpam = True Then
                             MainTimer.Start()
@@ -557,6 +729,8 @@ Module Gotcha
                         Colorize("[INFO]      Settings Reloaded...")
                     End If
                     iniSettings.Save() ' Save settings.ini
+                ElseIf param1 = "[online]" Then ' online check
+                    Colorize("[INFO]      " & onlinecount & " Users Online")
                 End If
             End If
 
@@ -581,12 +755,34 @@ Module Gotcha
 
     Private Declare Function SetForegroundWindow Lib "user32" (ByVal hwnd As IntPtr) As Long
 
-    Public Sub FindDiscordWindow(ByVal channel As String)
+    <DllImport("user32.dll", CharSet:=CharSet.Auto, SetLastError:=True)>
+    Private Function GetForegroundWindow() As IntPtr
+    End Function
+    <DllImport("user32.dll", CharSet:=CharSet.Auto, SetLastError:=True)>
+    Private Function GetWindowText(hWnd As IntPtr, text As StringBuilder, count As Integer) As Integer
+    End Function
+    <DllImport("user32.dll", CharSet:=CharSet.Auto, SetLastError:=True)>
+    Private Function GetWindowTextLength(hWnd As IntPtr) As Integer
+    End Function
+
+    Private Function GetCaptionOfActiveWindow() As String
+        Dim strTitle As String = String.Empty
+        Dim handle As IntPtr = GetForegroundWindow()
+        ' Obtain the length of the text   
+        Dim intLength As Integer = GetWindowTextLength(handle) + 1
+        Dim stringBuilder As New StringBuilder(intLength)
+        If GetWindowText(handle, stringBuilder, intLength) > 0 Then
+            strTitle = stringBuilder.ToString()
+        End If
+        Return strTitle
+    End Function
+
+    Public Sub FindDiscordWindow(ByVal channel As String, ByVal clType As String)
         Dim nWnd As IntPtr
         Dim ceroIntPtr As New IntPtr(0)
         Dim Wnd_name As String
 
-        Wnd_name = "#" & channel & " - Discord"
+        Wnd_name = "#" & channel & " - " & clType
         nWnd = FindWindow(Nothing, Wnd_name)
 
         SetForegroundWindow(nWnd)
@@ -603,7 +799,7 @@ Module Gotcha
             onlinestatus = False ' Set status
             If MainTimer.Enabled = True Then ' Turn off spammer if its still on
                 MainTimer.Stop()
-                Colorize("[ERROR]     Pokécord Offline...")
+                Colorize("[ERROR]     " & DateTime.Now & " Pokécord Offline...")
                 encounter = False
             End If
         End If
@@ -612,28 +808,31 @@ Module Gotcha
     ' Spam chat
     Public Sub SpamChats()
         ' Find discord
-        FindDiscordWindow(channel)
+        FindDiscordWindow(channel, clientype)
 
-        ' Check for spamchat file
-        If File.Exists(Application.StartupPath & "/config/spamchat.txt") Then
-            Dim ioFile As New StreamReader(Application.StartupPath & "/config/spamchat.txt")
-            Dim lines As New List(Of String)
-            Dim rnd As New Random()
-            Dim line As Integer
+        ' Make active window check
+        If GetCaptionOfActiveWindow() = "#" & channel & " - " & clientype Then
+            ' Check for spamchat file
+            If File.Exists(Application.StartupPath & "/config/spamchat.txt") Then
+                Dim ioFile As New StreamReader(Application.StartupPath & "/config/spamchat.txt")
+                Dim lines As New List(Of String)
+                Dim rnd As New Random()
+                Dim line As Integer
 
-            While ioFile.Peek <> -1
-                lines.Add(ioFile.ReadLine())
-            End While
+                While ioFile.Peek <> -1
+                    lines.Add(ioFile.ReadLine())
+                End While
 
-            ' Get random line and spam
-            line = GetRandom(0, lines.Count - 1)
+                ' Get random line and spam
+                line = GetRandom(0, lines.Count - 1)
 
-            ' Spam
-            SendKeys.SendWait(lines(line).Trim())
-            SendKeys.SendWait("{Enter}")
-        Else
-            Colorize("[ERROR]     Cannot locate /config/spamchat.txt...") ' error
-            MainTimer.Stop()
+                ' Spam
+                SendKeys.SendWait(lines(line).Trim())
+                SendKeys.SendWait("{Enter}")
+            Else
+                Colorize("[ERROR]     Cannot locate /config/spamchat.txt...") ' error
+                MainTimer.Stop()
+            End If
         End If
     End Sub
 
@@ -650,12 +849,31 @@ Module Gotcha
             If botRunning = True Then
                 MainTimer.Stop() ' pause
                 botRunning = False ' update toggle
-                Colorize("[INFO]      Bot Paused  | Press F12 to resume...") ' update console
+                Colorize("[INFO]      Bot Paused  | Press F12 to pause OR Esc to Close")
+
             Else
                 MainTimer.Start() ' resume
                 botRunning = True ' update toggle
-                Colorize("[INFO]      Bot Resumed | Press F12 to pause...") ' update console
+                Colorize("[INFO]      Bot Resumed | Press F12 to pause OR Esc to Close")
             End If
+        End If
+
+        If GetAsyncKeyState(Keys.Escape) Then
+            Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+            ' Update user count
+            Try
+                Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                Dim client As WebClient = New WebClient
+                Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                Dim iVersion As String = reader.ReadToEnd
+                reader.Close()
+
+                _client.Dispose()
+            Catch ex As Exception
+            End Try
+
+            End
         End If
 
         ' Check for pokecord online status
@@ -688,7 +906,7 @@ Module Gotcha
                     sw.WriteLine(DateTime.Now & "  |  " & msg)
                 End Using
             Case msg.Contains("LEVEL")
-                Console.ForegroundColor = ConsoleColor.Blue
+                Console.ForegroundColor = ConsoleColor.DarkCyan
                 Console.WriteLine(msg)
                 Console.ResetColor()
                 Using sw As StreamWriter = File.AppendText(logFile)
@@ -710,6 +928,13 @@ Module Gotcha
                 End Using
             Case msg.Contains("LOAD")
                 Console.ForegroundColor = ConsoleColor.White
+                Console.WriteLine(msg)
+                Console.ResetColor()
+                Using sw As StreamWriter = File.AppendText(logFile)
+                    sw.WriteLine(DateTime.Now & "  |  " & msg)
+                End Using
+            Case msg.Contains("STAT")
+                Console.ForegroundColor = ConsoleColor.DarkGray
                 Console.WriteLine(msg)
                 Console.ResetColor()
                 Using sw As StreamWriter = File.AppendText(logFile)
@@ -856,4 +1081,86 @@ Module Gotcha
     Private Const VK_TAB = &H9
     Private Const VK_UP = &H26
     Private Const VK_ZOOM = &HFB
+
+    Private  Function ConsoleEventCallback(ByVal eventType As Integer) As Boolean
+        Select Case eventType
+            Case 0
+                ' Update user count
+                Try
+                    Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                    Dim client As WebClient = New WebClient
+                    Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                    Dim iVersion As String = reader.ReadToEnd
+                    reader.Close()
+
+                    Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+                    _client.Dispose()
+                Catch ex As Exception
+                End Try
+            Case 1
+                ' Update user count
+                Try
+                    Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                    Dim client As WebClient = New WebClient
+                    Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                    Dim iVersion As String = reader.ReadToEnd
+                    reader.Close()
+
+                    Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+                    _client.Dispose()
+                Catch ex As Exception
+                End Try
+            Case 2
+                ' Update user count
+                Try
+                    Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                    Dim client As WebClient = New WebClient
+                    Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                    Dim iVersion As String = reader.ReadToEnd
+                    reader.Close()
+
+                    Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+                    _client.Dispose()
+                Catch ex As Exception
+                End Try
+            Case 5
+                ' Update user count
+                Try
+                    Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                    Dim client As WebClient = New WebClient
+                    Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                    Dim iVersion As String = reader.ReadToEnd
+                    reader.Close()
+
+                    Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+                    _client.Dispose()
+                Catch ex As Exception
+                End Try
+            Case 6
+                ' Update user count
+                Try
+                    Dim verURL As String = "https://gotchabot.000webhostapp.com/v2/online/remove.php"
+                    Dim client As WebClient = New WebClient
+                    Dim reader As StreamReader = New StreamReader(client.OpenRead(verURL))
+                    Dim iVersion As String = reader.ReadToEnd
+                    reader.Close()
+
+                    Colorize("[INFO]      Bot Closing | Prepairing final tasks and saving")
+
+                    _client.Dispose()
+                Catch ex As Exception
+                End Try
+        End Select
+        Return False
+    End Function
+
+    Dim handler As ConsoleEventDelegate
+    Private Delegate Function ConsoleEventDelegate(ByVal eventType As Integer) As Boolean
+    <DllImport("kernel32.dll", SetLastError:=True)>
+    Private Function SetConsoleCtrlHandler(ByVal callback As ConsoleEventDelegate, ByVal add As Boolean) As Boolean
+    End Function
 End Module

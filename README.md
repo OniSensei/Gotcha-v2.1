@@ -178,7 +178,7 @@ BotToken =
 
 // This is what you're using discord on.
 // If you're using the desktop client then Client = Discord
-// If you're using discord in chrome then Client = Chrome
+// If you're using discord in chrome then Client = Google Chrome
 // If you're using discord in firefox then Client = Mozilla Firefox
 // If you're using microsoft edge then just don't.
 // If you're using internet explorer its impossible don't lie.

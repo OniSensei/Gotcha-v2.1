@@ -18,6 +18,8 @@ This bot is not for pokemon go. It is for the discord bot called pokecord.
 
 > [Discord Client](https://discordapp.com/)
 
+> [Gotcha v2.1.0.9](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.9) - Latest Release - New auto voter
+
 > [Gotcha v2.1.0.8](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.8) - Latest Release - New webbrowser support
 
 > [Gotcha v2.1.0.7](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.7) - Older
@@ -167,88 +169,94 @@ Settings Commands: (you must include the "[]" brackets.)
      
    - If there is no update the bot should start.
    
-## /config/settings.ini explaned
-```
-[Basic]
-// The channel name - this is used to find the discord window to spam messages and catch pokemon
-Channel = general
+## /config/*.ini explaned
 
-// The bot token used to log into the bot we invite - used to read pokecord messages - dont share this token!
-BotToken = 
-
-// This is what you're using discord on.
-// If you're using the desktop client then Client = Discord
-// If you're using discord in chrome then Client = Google Chrome
-// If you're using discord in firefox then Client = Mozilla Firefox
-// If you're using microsoft edge then just don't.
-// If you're using internet explorer its impossible don't lie.
-Client = Discord
-
-// The pokecord prefix for your server 
-Prefix = p!
-
-// The current bot version you are using - used to update bot
-Version = 2.1.0.6
-
-// Auto updater toggle - if False then the bot will not auto update
-AutoUpdate = True
+***/config/catch.ini***
+```ini
+[Catcher]
+AutoBal = True                                 ; If True this will auto collect pokedex rewards
+CatchDelay = 750                               ; The delay the bot should wait before catching the pokemon
+PokeWhitelist = Bulbasaur, Ivysaur, Venusaur   ; The list of pokemon you want to catch. Must be spelled correctly, and capital first letter
+[Stats]
+Visible = True                                 ; If True this will display catch stats
+Totals = True                                  ; If True this will display total lifetime catch stats if catch stats are visible
+MostCaught = True                              ; If True this will display your most caught pokemon
+Money = True                                   ; If True this will display your current ballance
 ```
 
-```
-[Spam]
-// This is how offten the bot will try to send a spam message in ms [1000ms = 1sec]
-SpamInterval = 1500
-
-// This is the Auto Spammer toggle - if False then the bot will not spam
-AutoSpam = True
-```
-
-```
+***/config/counts.ini***
+```ini
+[Catches]
+Seen = 798                                     ; This is how many pokemon you have seen total
+Caught = 797                                   ; This is how many pokemon you have caught total
+Legendary = 0                                  ; This is how many legendary pokemon you have caught total
+Mythical = 0                                   ; This is how many mythic pokemon you have caught total
+UltraBeast = 0                                 ; This is how many ultra beast pokemon you have caught total
+Event = 0                                      ; This is how many event pokemon you have caught total
+Custom = 0                                     ; This is how many custom selected pokemon you have caught total [set in notifications.ini]
+Shiny = 1                                      ; This is how many shiny pokemon you have caught total
+[MostCaught]
+Popular = Skiddo                               ; This is your most caught pokemon ever
+PopularCount = 8                               ; This is how many you have caught of that pokemon
 [Levels]
-// This is the Auto Level toggle - if False then the bot will not switch pokemon at leve l00
-AutoLevel = True
-
-// This is the level queue - put pokemon number here seperated by comma, the bot will cycle through them first before doing p!select latest
-LevelQueue =  1, 2, 3 , 4, 5
+Level = 278                                    ; This is how many levels you have gained in total
+Evolution = 2                                  ; This is how many evolutions you have gained in total
+[Money]
+Credits = 132125                               ; This is how many credits you currently have
 ```
 
-```
-[Catch]
-// This is the Auto Ballance toggle - if False then the bot will not collect pokedex rewards automatically
-AutoBal = True
-
-// This is the catch delay - it is used so we dont catch the pokemon super quick and makes it look more life like
-CatchDelay = 750
-
-// These are the pokemon you want to catch - Spelling must be correct, and CaSeSeNsItIvE by default the list has 829 pokemon which includes all pokemon catchable at the moment im writing this.
-PokeWhitelist = Detective Pikachu, Bulbasaur, Ivysaur, Venusaur
+***/config/levels.ini***
+```ini
+[Leveler]
+AutoLevel = True                               ; If True this will auto select the next pokemon either from queue or latest
+LevelQueue = 4076, 4693, 701, 917              ; There are the pokemon to select first else will select latest if empty
+[Stats]
+Visible = True                                 ; If True this will display level & evolution stats   
+Totals = True                                  ; If True this will display total level & evolution stats 
 ```
 
-```
+***/config/notifications.ini***
+```ini
 [Notifications]
-// Notifications will pm the user if set to True when the user catches the corresponding pokemon.
-Legendary = True
-Mythical = True
-UltraBeast = True
-EventPkmn = True
-Shiny = True
-
-// These are pokemon not listed above that you still want notifications for.
-CustomPkmn = False
+Legendary = True                               ; If True this will DM you when you catch a legendary pokemon
+Mythical = True                                ; If True this will DM you when you catch a mythic pokemon
+UltraBeast = True                              ; If True this will DM you when you catch a ultra beast pokemon
+EventPkmn = True                               ; If True this will DM you when you catch a event pokemon
+Shiny = True                                   ; If True this will DM you when you catch a shiny pokemon
+CustomPkmn = False                             ; If True this will DM you when you catch a custom listed pokemon below
 CustomPoke = Dragonite, Tyranitar, Salamance, Metagross, Garchomp, Hydreigon, Goodra, Kommo-o
 ```
 
-## Recent Changes
+***/config/settings.ini***
+```ini
+[Basic]
+BotToken =                                    ; This is the bot token you get from https://discordapp.com/developers/applications/
+Channel = general                             ; This is the channel in discord you want to spam/catch
+Client = Discord                              ; This is the client type | Windows: Discord | Chrome: Google Chrome | Firefox: Mozilla Firefox
+Prefix = p!                                   ; This is the pokecord prefix
+BotHotkey = F12                               ; This is the hotkey for pausing/resuming the bot | F1 - F12
 ```
-- Added queue to AutoLevel
-- Fixed AutoUpdate conditional statement
-- Fixed Online Count
-- Fixed Close button
-- Modified some console outputs
-- Added time stamp to Pokecord offline
-- Fixed Discord.Net disconnect on close
-- Added counts.ini
-     - Added lifetime counts for catches/levels
-- Added client webbrowser compatability
-     - Added Client to Settings.ini
+
+***/config/spam.ini***
+```ini
+[Spammer]
+AutoSpam = True                               ; If True the bot will auto spam
+SpamInterval = 3500                           ; The interval in MS for how offten to spam messages
+```                                           
+
+***/config/updater.ini***
+```ini                                        
+[Updater]
+AutoUpdate = True                             ; If True the bot will auto update
+Version = 2.1.0.9                             ; The current version your bot is running
+```
+                                             
+***/config/voter.ini***
+```ini                                       
+[Voter]
+AutoVoter = True                              ; If True the bot will auto vote every 12 hours
+LastVote = 8/3/2019 7:53:49 PM                ; This is the last time your auto voter ran
+[Discord]
+Email = test@test.com                         ; This is your discord email. This is required. Otherwise set AutoVoter = False
+Password = test123                            ; This is your discord password. This is required. Otherwise set AutoVoter = False
 ```

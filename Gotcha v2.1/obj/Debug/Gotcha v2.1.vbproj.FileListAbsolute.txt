@@ -53,3 +53,7 @@ C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.exe.manife
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\Gotcha v2.1.application
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.exe.manifest
 C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\obj\Debug\Gotcha v2.1.application
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\WebDriver.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\WebDriver.Support.dll
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\WebDriver.xml
+C:\Users\D\source\repos\Gotcha v2.1\Gotcha v2.1\bin\Debug\WebDriver.Support.xml

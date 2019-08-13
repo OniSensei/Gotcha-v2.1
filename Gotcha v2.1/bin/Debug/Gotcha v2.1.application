@@ -14,14 +14,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Gotcha v2.1.exe.manifest" size="24203">
+    <dependentAssembly dependencyType="install" codebase="Gotcha v2.1.exe.manifest" size="25498">
       <assemblyIdentity name="Gotcha v2.1.exe" version="2.1.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zmxWjoXC+XMc3gwpo/rRkUxDvEjBMerVvexrbljqRrs=</dsig:DigestValue>
+        <dsig:DigestValue>FWcm1uqrmZ9HyiJmMtIKR2RWAgGNytm9Tyh2l5TiwvE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

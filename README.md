@@ -18,7 +18,9 @@ This bot is not for pokemon go. It is for the discord bot called pokecord.
 
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.0.10](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.10) - Latest - Stable - Hotfix
+> [Gotcha v2.1.1.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.1.11) - Latest
+
+> [Gotcha v2.1.0.10](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.10) - Old - Hotfix
 
 > [Gotcha v2.1.0.9](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.9) - ***NOT STABLE*** - New auto voter
 

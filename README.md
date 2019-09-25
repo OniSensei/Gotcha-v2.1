@@ -14,11 +14,13 @@ This bot is not for pokemon go. It is for the discord bot called pokecord.
 ## Video guide
 > [Youtube](https://www.youtube.com/watch?v=Fk16LdoEyRY)
 
-## Downloads
+## Downloads 
 
 > [Discord Client](https://discordapp.com/)
 
-> [Gotcha v2.1.1.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.1.11) - Latest
+> [Gotcha v2.1.1.2](https://github.com/OniSensei/Gotcha-v2.1/releases/download/2.1.1.2/Gotcha.Bot.2.1.1.2.zip) - Latest - Working 9/25/19
+
+> [Gotcha v2.1.1.1](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.1.11) - Old patched
 
 > [Gotcha v2.1.0.10](https://github.com/OniSensei/Gotcha-v2.1/releases/tag/2.1.0.10) - Old - Hotfix
 
